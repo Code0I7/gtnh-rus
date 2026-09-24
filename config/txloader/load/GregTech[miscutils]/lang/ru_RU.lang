@@ -117,7 +117,7 @@ ic2.itemVibrantRotor.name=Кинетический ротор (Вибрирую�
 
 
 # Misc Items
-item.itemPLACEHOLDER_Circuit.name=Кварк манипулятор (UV)
+item.itemPLACEHOLDER_Circuit.name=Кварк манипулятор §2§n[UV]§r
 item.itemPlateEnrichedSoularium.name=Пластина из обогащённого призрачного сплава
 item.itemHeliumBlob.name=Таинственная водородная субстанция
 item.itemAlkalusDisk.name=Alkalus диск
@@ -1778,8 +1778,8 @@ item.itemSmallGearCastIron.name=Маленькая шестерня из ков�
 item.itemFoilUranium235.name=Фольга из урана-235
 
 item.itemBoilerChassis_0.name=Улучшенное шасси бойлера [Тир 1]
-item.itemDehydratorCoilWire_0.name=Провод катушки [EV]
-item.itemDehydratorCoil_0.name=Катушка дегидратора [EV]
+item.itemDehydratorCoilWire_0.name=Провод катушки §8[EV]§r
+item.itemDehydratorCoil_0.name=Катушка дегидратора §8[EV]§r
 item.itemAirFilter.name=Воздушный фильтр
 item.itemAirFilter_0.name=Воздушный фильтр
 item.itemAirFilter_1.name=Воздушный фильтр
@@ -1861,16 +1861,16 @@ item.SlowBuildingRing.name=§eКольцо медленного строител
 item.SlowBuildingRing.tooltip.0=§aНосится как кольцо в Baubles. Запрещает бег.§7
 item.SlowBuildingRing.tooltip.1=§aСкорость передвижения снижена.§7
 item.SlowBuildingRing.tooltip.2=§aНажмите Shift во время ношения, чтобы переключить режим.§7
-item.itemBufferCore1.name=Энергетическое ядро [ULV]
-item.itemBufferCore2.name=Энергетическое ядро [LV]
-item.itemBufferCore3.name=Энергетическое ядро [MV]
-item.itemBufferCore4.name=Энергетическое ядро [HV]
-item.itemBufferCore5.name=Энергетическое ядро [EV]
-item.itemBufferCore6.name=Энергетическое ядро [IV]
-item.itemBufferCore7.name=Энергетическое ядро [LuV]
-item.itemBufferCore8.name=Энергетическое ядро [ZPM]
-item.itemBufferCore9.name=Энергетическое ядро [UV]
-item.itemBufferCore10.name=Энергетическое ядро [MAX]
+item.itemBufferCore1.name=Энергетическое ядро §c[ULV]§r
+item.itemBufferCore2.name=Энергетическое ядро §2[LV]§r
+item.itemBufferCore3.name=Энергетическое ядро §6[MV]§r
+item.itemBufferCore4.name=Энергетическое ядро §e[HV]§r
+item.itemBufferCore5.name=Энергетическое ядро §8[EV]§r
+item.itemBufferCore6.name=Энергетическое ядро §9[IV]§r
+item.itemBufferCore7.name=Энергетическое ядро §d[LuV]§r
+item.itemBufferCore8.name=Энергетическое ядро §b[ZPM]§r
+item.itemBufferCore9.name=Энергетическое ядро §2§n[UV]§r
+item.itemBufferCore10.name=Энергетическое ядро §f§l§n[MAX]§r
 item.itembookgt.name=§oТепловой бойлер - руководство
 
 # Everglade Items
@@ -2782,7 +2782,7 @@ item.itemDustTinyDecayedRadium226.name=Крошечная кучка распа�
 
 # Bags
 item.item.MysticBag.name=Мистическая сумка
-item.item.Eatotron9000.name=Eatotronic 9000
+item.item.Eatotron9000.name=Едатроник 9000
 item.item.ToolBox.name=Рабочий ящик для инструментов
 
 # Cells
@@ -2959,14 +2959,14 @@ tile.playerDoorWood.name=Деревянная автоматическая дв�
 
 # Added 4/2/19
 
-item.GTPP.BattPack.06.name=Портативный зарядник [LuV]
-item.GTPP.BattPack.06.name.name=Портативный зарядник [LuV]
-item.GTPP.BattPack.07.name=Портативный зарядник [ZPM]
-item.GTPP.BattPack.07.name.name=Портативный зарядник [ZPM]
-item.GTPP.BattPack.08.name=Портативный зарядник [UV]
-item.GTPP.BattPack.08.name.name=Портативный зарядник [UV]
-item.GTPP.BattPack.09.name=Портативный зарядник [MAX]
-item.GTPP.BattPack.09.name.name=Портативный зарядник [UHV]
+item.GTPP.BattPack.06.name=Портативный зарядник §d[LuV]§r
+item.GTPP.BattPack.06.name.name=Портативный зарядник §d[LuV]§r
+item.GTPP.BattPack.07.name=Портативный зарядник §b[ZPM]§r
+item.GTPP.BattPack.07.name.name=Портативный зарядник §b[ZPM]§r
+item.GTPP.BattPack.08.name=Портативный зарядник §2§n[UV]§r
+item.GTPP.BattPack.08.name.name=Портативный зарядник §2§n[UV]§r
+item.GTPP.BattPack.09.name=Портативный зарядник §4§n[UHV]§r
+item.GTPP.BattPack.09.name.name=Портативный зарядник §4§n[UHV]§r
 
 
 # Added 13/3/19
@@ -3348,16 +3348,16 @@ item.itemRodLongGermanium.name=Длинный германиевый стерж�
 
 # Added 13/5/19
 
-item.GTPP.BattPack.01.name=Портативный зарядник [LV]
-item.GTPP.BattPack.01.name.name=Портативный зарядник [LV]
-item.GTPP.BattPack.02.name=Портативный зарядник [MV]
-item.GTPP.BattPack.02.name.name=Портативный зарядник [MV]
-item.GTPP.BattPack.03.name=Портативный зарядник [HV]
-item.GTPP.BattPack.03.name.name=Портативный зарядник [HV]
-item.GTPP.BattPack.04.name=Портативный зарядник [EV]
-item.GTPP.BattPack.04.name.name=Портативный зарядник [EV]
-item.GTPP.BattPack.05.name=Портативный зарядник [IV]
-item.GTPP.BattPack.05.name.name=Портативный зарядник [IV]
+item.GTPP.BattPack.01.name=Портативный зарядник §2[LV]§r
+item.GTPP.BattPack.01.name.name=Портативный зарядник §2[LV]§r
+item.GTPP.BattPack.02.name=Портативный зарядник §6[MV]§r
+item.GTPP.BattPack.02.name.name=Портативный зарядник §6[MV]§r
+item.GTPP.BattPack.03.name=Портативный зарядник §e[HV]§r
+item.GTPP.BattPack.03.name.name=Портативный зарядник §e[HV]§r
+item.GTPP.BattPack.04.name=Портативный зарядник §8[EV]§r
+item.GTPP.BattPack.04.name.name=Портативный зарядник §8[EV]§r
+item.GTPP.BattPack.05.name=Портативный зарядник §9[IV]§r
+item.GTPP.BattPack.05.name.name=Портативный зарядник §9[IV]§r
 item.IndustrialDiamondExquisite.name=Совершенный промышленный алмаз
 
 item.itemSpringCelestialTungsten.name=Пружина из небесного вольфрама
@@ -3896,7 +3896,7 @@ gtpp.tooltip.dark_world_portal.0=Разместите это, если вам с
 gtpp.tooltip.dark_world.ground=Если случится возгорание, сгорит очень быстро.
 gtpp.tooltip.dark_world.polluted_dirt=Может быть, вы можете что-то с этим сделать?
 gtpp.tooltip.dark_world.polluted_dirt.1=Это пахнет хуже, чем пердеж бобов...
-gtpp.tooltip.alkalus_disk.0=Shines the way, towards the far away Everglades.
+gtpp.tooltip.alkalus_disk.0=Освещает путь к далёким Эверглейдс.
 gtpp.tooltip.alkalus_disk.1=Этот предмет создает такую температуру, что вам бы не хотелось использовать его неправильно.
 gtpp.tooltip.tool.durability=Прочность:
 gtpp.tooltip.tool.turbine_efficiency=Эффективность турбины:
@@ -4059,7 +4059,7 @@ gtplusplus.blockcasings.2.3.name=Инколой-DS сдерживающий жи
 gtplusplus.blockcasings.2.4.name=Корпус промывочной установки
 gtplusplus.blockcasings.2.5.name=Корпус промышленного сита
 gtplusplus.blockcasings.2.6.name=Большая решётка-сито
-gtplusplus.blockcasings.2.7.name=Ванадий редокс энергоячейка (EV)
+gtplusplus.blockcasings.2.7.name=Ванадий редокс энергоячейка §8[EV]§r
 gtplusplus.blockcasings.2.8.name=Внешний корпус подстанции
 gtplusplus.blockcasings.2.9.name=Катушка циклотрона
 gtplusplus.blockcasings.2.10.name=Внешний корпус циклотрона
@@ -4072,11 +4072,11 @@ gtplusplus.blockcasings.3.0.name=Водный корпус
 gtplusplus.blockcasings.3.1.name=Укреплённый корпус из инконеля
 gtplusplus.blockcasings.3.2.name=Мульти-функциональный корпус
 gtplusplus.blockcasings.3.3.name=Покрытый тринием корпус
-gtplusplus.blockcasings.3.4.name=Ванадий редокс энергоячейка (IV)
-gtplusplus.blockcasings.3.5.name=Ванадий редокс энергоячейка (LuV)
-gtplusplus.blockcasings.3.6.name=Ванадий редокс энергоячейка (ZPM)
-gtplusplus.blockcasings.3.7.name=Ванадий редокс энергоячейка (UV)
-gtplusplus.blockcasings.3.8.name=Ванадий редокс энергоячейка (UHV)
+gtplusplus.blockcasings.3.4.name=Ванадий редокс энергоячейка §9[IV]§r
+gtplusplus.blockcasings.3.5.name=Ванадий редокс энергоячейка §d[LuV]§r
+gtplusplus.blockcasings.3.6.name=Ванадий редокс энергоячейка §b[ZPM]§r
+gtplusplus.blockcasings.3.7.name=Ванадий редокс энергоячейка §2§n[UV]§r
+gtplusplus.blockcasings.3.8.name=Ванадий редокс энергоячейка §4§n[UHV]§r
 gtplusplus.blockcasings.3.9.name=Корпус депо снабжения
 gtplusplus.blockcasings.3.10.name=Улучшенный криогенный корпус
 gtplusplus.blockcasings.3.11.name=Корпус вулкануса
@@ -4152,16 +4152,16 @@ gtplusplus.blockspecialcasings.2.3.name=Прочный ботмиевый кор
 gtplusplus.blockspecialcasings.3.0.name=Резонирующий корпус I
 gtplusplus.blockspecialcasings.3.1.name=Резонирующий корпус II
 gtplusplus.blockspecialcasings.3.2.name=Резонирующий корпус III
-gtplusplus.blockspecialcasings.3.3.name=Резонирующий корпус IV
+gtplusplus.blockspecialcasings.3.3.name=Резонирующий корпус §9[IV]§r
 gtplusplus.blockspecialcasings.3.4.name=Модулятор I
 gtplusplus.blockspecialcasings.3.5.name=Модулятор II
 gtplusplus.blockspecialcasings.3.6.name=Модулятор III
-gtplusplus.blockspecialcasings.3.7.name=Модулятор IV
+gtplusplus.blockspecialcasings.3.7.name=Модулятор §9[IV]§r
 
 gtplusplus.blocktieredcasings.1.0.name=Интегральный корпус I
 gtplusplus.blocktieredcasings.1.1.name=Интегральный корпус II
 gtplusplus.blocktieredcasings.1.2.name=Интегральный корпус III
-gtplusplus.blocktieredcasings.1.3.name=Интегральный корпус IV
+gtplusplus.blocktieredcasings.1.3.name=Интегральный корпус §9[IV]§r
 gtplusplus.blocktieredcasings.1.4.name=Интегральный корпус V
 gtpp.tooltip.frame.void=Никаких читерских рамок для игроков GTNH.
 gtpp.tooltip.frame.accelerated=Долголетие пчёл - редкость, особенно когда они работают усерднее.
@@ -4175,5 +4175,5 @@ gtpp.tooltip.frame.arborists=Зачем нужны пчёлы, если есть
 gtplusplus.blocktieredcasings.1.5.name=Интегральный каркас I
 gtplusplus.blocktieredcasings.1.6.name=Интегральный каркас II
 gtplusplus.blocktieredcasings.1.7.name=Интегральный каркас III
-gtplusplus.blocktieredcasings.1.8.name=Интегральный каркас IV
+gtplusplus.blocktieredcasings.1.8.name=Интегральный каркас §9[IV]§r
 gtplusplus.blocktieredcasings.1.9.name=Интегральный каркас V

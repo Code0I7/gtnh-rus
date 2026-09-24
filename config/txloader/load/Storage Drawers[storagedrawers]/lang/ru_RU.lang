@@ -132,9 +132,9 @@ storageDrawers.drawers.sealed.drawerList=Ящики:
 storageDrawers.drawers.sealed.compDrawerList=Компактный ящик:
 storageDrawers.drawers.sealed.upgradeList=Улучшения:
 storageDrawers.drawers.sealed.materialList=Материалы:
-storageDrawers.drawers.sealed.upgradeNone=<None>
+storageDrawers.drawers.sealed.upgradeNone=<Нет>
 storageDrawers.drawers.sealed.drawerEmpty=<Пусто>
-storageDrawers.drawers.sealed.materialNone=<None>
+storageDrawers.drawers.sealed.materialNone=<Нет>
 storageDrawers.drawers.sealed.materialSide=Сторона:
 storageDrawers.drawers.sealed.materialFront=Спереди:
 storageDrawers.drawers.sealed.materialTrim=Отделка:
@@ -144,7 +144,7 @@ storageDrawers.controller.description=Взаимодействует с неск
 storageDrawers.controllerSlave.description=Дополнительные точки подключения для контроллеров
 
 # Integration
-storageDrawers.waila.empty=<Empty>
+storageDrawers.waila.empty=<Пусто>
 storageDrawers.waila.level=Уровень улучшения: %s
 storageDrawers.waila.drawer=Ящик #%s: %s
 storageDrawers.waila.limit=Стак лимит: %s (x%s)
@@ -231,7 +231,7 @@ storageDrawers.config.prop.controllerMaxDrawers.tooltip=Максимум ящи�
 storageDrawers.config.prop.enableFramedDrawers=Включить обрамлённые ящики
 storageDrawers.config.prop.enableFramedDrawers.tooltip=Ящики из нестандартных материалов.
 
-storageDrawers.config.addons=Addons
+storageDrawers.config.addons=Дополнения
 storageDrawers.config.addons.tooltip=Настройка глобальных параметров пакетов дополнений.
 
 storageDrawers.config.addons.showNEI=Показать блоки в NEI

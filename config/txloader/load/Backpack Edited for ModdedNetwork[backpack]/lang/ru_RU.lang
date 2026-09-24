@@ -80,4 +80,4 @@ tooltip.intelligent=Умный
 tooltip.slots=%s слотов
 tooltip.crafting_slots=Рюкзак-верстак с %s слотами инвентаря
 tooltip.ender=§4Предмет отключён; Нет рецепта
-itemGroup.tab.backpacks=Backpacks
+itemGroup.tab.backpacks=Backpack: Рюкзаки

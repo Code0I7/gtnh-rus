@@ -1,4 +1,4 @@
-angermod.commands.angerprotection.usage=/angerprotection <player> give/remove
+angermod.commands.angerprotection.usage=/angerprotection <игрок> give/remove
 angermod.commands.angerprotection.disabled=Защита спавна отключена.
 angermod.commands.angerprotection.wrong_action=Неизвестное действие: необходимо указать "give" или "remove"
 angermod.commands.angerprotection.given=Защита выдана %s игрок(ам)

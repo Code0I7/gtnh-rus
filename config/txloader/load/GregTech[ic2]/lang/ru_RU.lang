@@ -6,14 +6,14 @@ ic2.itemIridiumRotor=Кинетический ротор (Иридий)
 ic2.itemMagnaliumRotor=Кинетический ротор (Магналий)
 ic2.itemUltimetRotor=Кинетический ротор (Ультимет)
 
-ic2.blockGenerator=RTG POWARZ
-ic2.blockGenerator.0=RTG POWA
-ic2.blockGenerator.1=KINETIC POWA
-ic2.blockGenerator.2=ERROR POWA
-ic2.blockGenerator.3=MOAR ERROR POWA
+ic2.blockGenerator=РТГ МОЩЩА
+ic2.blockGenerator.0=РТГ МОЩА
+ic2.blockGenerator.1=КИНЕТИК МОЩА
+ic2.blockGenerator.2=ЭРРОР МОЩА
+ic2.blockGenerator.3=ИЩО ЭРРОР МОЩА
 
-ic2.blockRTGenerator2=RTG POWARZ 2
-ic2.blockKineticGenerator2=KINETIC POWA 2
+ic2.blockRTGenerator2=РТГ МОЩЩА 2
+ic2.blockKineticGenerator2=КИНЕТИК МОЩА 2
 
 ic2.HydrofluoricAcid=Капсула промышленной концентрированной плавиковой кислоты
 ic2.SulfurDioxide=Капсула диоксида серы

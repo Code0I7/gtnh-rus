@@ -273,7 +273,7 @@
         </line>
         <line>
             <if>
-                <str>  Nearest players:</str>
+                <str>  Ближайшие игроки:</str>
             </if>
         </line>
         <line>

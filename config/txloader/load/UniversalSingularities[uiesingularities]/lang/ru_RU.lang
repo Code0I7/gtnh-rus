@@ -60,21 +60,21 @@ item.universalSingularities.rubber.elastic.name=Эластичная сингу�
 item.universalSingularities.toxic.contaminated.name=Загрязнённая сингулярность
 
 //Circuit
-item.universalSingularities.circuit.ulv.name=Сингулярность вычислений ULV
-item.universalSingularities.circuit.lv.name=Сингулярность вычислений LV
-item.universalSingularities.circuit.mv.name=Сингулярность вычислений MV
-item.universalSingularities.circuit.hv.name=Сингулярность вычислений HV
-item.universalSingularities.circuit.ev.name=Сингулярность вычислений EV
-item.universalSingularities.circuit.iv.name=Сингулярность вычислений IV
-item.universalSingularities.circuit.luv.name=Сингулярность вычислений LuV
-item.universalSingularities.circuit.zpm.name=Сингулярность вычислений ZPM
-item.universalSingularities.circuit.uv.name=Сингулярность вычислений UV
-item.universalSingularities.circuit.uhv.name=Сингулярность вычислений UHV
-item.universalSingularities.circuit2.uev.name=Сингулярность вычислений UEV
-item.universalSingularities.circuit2.uiv.name=Сингулярность вычислений UIV
-item.universalSingularities.circuit2.umv.name=Сингулярность вычислений UMV
-item.universalSingularities.circuit2.uxv.name=Сингулярность вычислений UXV
-item.universalSingularities.circuit2.max.name=Сингулярность вычислений MAX
+item.universalSingularities.circuit.ulv.name=Сингулярность вычислений §c[ULV]§r
+item.universalSingularities.circuit.lv.name=Сингулярность вычислений §2[LV]§r
+item.universalSingularities.circuit.mv.name=Сингулярность вычислений §6[MV]§r
+item.universalSingularities.circuit.hv.name=Сингулярность вычислений §e[HV]§r
+item.universalSingularities.circuit.ev.name=Сингулярность вычислений §8[EV]§r
+item.universalSingularities.circuit.iv.name=Сингулярность вычислений §9[IV]§r
+item.universalSingularities.circuit.luv.name=Сингулярность вычислений §d[LuV]§r
+item.universalSingularities.circuit.zpm.name=Сингулярность вычислений §b[ZPM]§r
+item.universalSingularities.circuit.uv.name=Сингулярность вычислений §2§n[UV]§r
+item.universalSingularities.circuit.uhv.name=Сингулярность вычислений §4§n[UHV]§r
+item.universalSingularities.circuit2.uev.name=Сингулярность вычислений §5§n[UEV]§r
+item.universalSingularities.circuit2.uiv.name=Сингулярность вычислений §1§l§n[UIV]§r
+item.universalSingularities.circuit2.umv.name=Сингулярность вычислений §c§l§n[UMV]§r
+item.universalSingularities.circuit2.uxv.name=Сингулярность вычислений §4§l§n[UXV]§r
+item.universalSingularities.circuit2.max.name=Сингулярность вычислений §f§l§n[MAX]§r
 item.universalSingularities.circuit2.erv.name=Сингулярность ошибок вычислений
 item.universalSingularities.circuit2.computronium.name=Пустая сингулярность вычислений
 

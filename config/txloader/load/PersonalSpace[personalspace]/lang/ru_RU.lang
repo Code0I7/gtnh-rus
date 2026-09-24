@@ -39,33 +39,33 @@ gui.personalWorld.boundary.a=Граница A
 gui.personalWorld.boundary.b=Граница B
 gui.personalWorld.boundary.a.short=A
 gui.personalWorld.boundary.b.short=B
-gui.personalWorld.boundary.chunks=Boundary Chunks X x Z (0-20)
+gui.personalWorld.boundary.chunks=Чанков границы X x Z (0-20)
 
 gui.personalWorld.boundary.none=Нет
 gui.personalWorld.boundary.none.short=-
 gui.personalWorld.boundary.unknown.short=?
-gui.personalWorld.boundary.metaValue=meta=%d
-gui.personalWorld.boundary.allowedValue=allowed=%s
-gui.personalWorld.boundary.allowed=Allowed: %s
-gui.personalWorld.boundary.invalidMeta=Invalid meta
-gui.personalWorld.boundary.blockNotAllowed.a=Boundary A block not allowed
-gui.personalWorld.boundary.blockNotAllowed.b=Boundary B block not allowed
+gui.personalWorld.boundary.metaValue=мета=%d
+gui.personalWorld.boundary.allowedValue=разрешён=%s
+gui.personalWorld.boundary.allowed=Разрешён: %s
+gui.personalWorld.boundary.invalidMeta=Неверная мета
+gui.personalWorld.boundary.blockNotAllowed.a=Блок границы A не разрешён
+gui.personalWorld.boundary.blockNotAllowed.b=Блок границы B не разрешён
 gui.personalWorld.boundary.range=0-20
 
-gui.personalWorld.gap=Gap Chunks (0-5)
-gui.personalWorld.gap.a=Gap A
-gui.personalWorld.gap.b=Gap B
-gui.personalWorld.gap.c=Gap C
+gui.personalWorld.gap=Чанков зазора (0-5)
+gui.personalWorld.gap.a=Зазор A
+gui.personalWorld.gap.b=Зазор B
+gui.personalWorld.gap.c=Зазор C
 gui.personalWorld.gap.a.short=A
 gui.personalWorld.gap.b.short=B
 gui.personalWorld.gap.c.short=C
 gui.personalWorld.gap.widthRange=0-5
-gui.personalWorld.gap.preset.ROAD=Road
-gui.personalWorld.gap.preset.SOLID=Solid
+gui.personalWorld.gap.preset.ROAD=Дорога
+gui.personalWorld.gap.preset.SOLID=Сплошной
 gui.personalWorld.applyToAllSurfaceLayers=Применить ко всем поверхностным слоям
-gui.personalWorld.gap.blockNotAllowed.a=Gap A block not allowed
-gui.personalWorld.gap.blockNotAllowed.b=Gap B block not allowed
-gui.personalWorld.gap.blockNotAllowed.c=Gap C block not allowed
+gui.personalWorld.gap.blockNotAllowed.a=Блок зазора A не разрешён
+gui.personalWorld.gap.blockNotAllowed.b=Блок зазора B не разрешён
+gui.personalWorld.gap.blockNotAllowed.c=Блок зазора C не разрешён
 
 gui.personalWorld.center.enable=Центральный маркер
 gui.personalWorld.center.block=Центральный блок
@@ -85,7 +85,7 @@ gui.personalWorld.moreSettings.tooltip=Дополнительные настро
 gui.personalWorld.backToMain=Назад
 gui.personalWorld.backToMain.tooltip=Вернуться в главное меню
 
-commands.pspace.usage=/pspace (give-portal player DIM [X] [Y] [Z])|(tpx player DIM [X Y Z])|(ls)|(where player)|(allow-worldgen-change DIM)|(reload-config)
+commands.pspace.usage=/pspace (give-portal игрок ИЗМ [X] [Y] [Z])|(tpx игрок ИЗМ [X Y Z])|(ls)|(where игрок)|(allow-worldgen-change ИЗМ)|(reload-config)
 commands.pspace.badDimension=Указанное измерение не существует
 commands.pspace.where=Игрок %s находится в измерении %d
 commands.pspace.tpx=Игрок %s был телепортирован в %d: %d, %d, %d

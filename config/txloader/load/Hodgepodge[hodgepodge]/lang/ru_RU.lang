@@ -50,7 +50,7 @@ hodgepodge.soundsmenu.downmix_stereo=Стерео-даунмикс
 hodgepodge.soundsmenu.downmix_stereo.tooltip=Преобразует пространственные стерео-звуковые эффекты в моно при загрузке. Это вдвое уменьшает объём декодированной памяти и позволяет старой версии OpenAL позиционировать их в 3D. Потоковая музыка и пластинки остаются без изменений. Обновите звуки для пересборки кэшированного аудио.
 hodgepodge.soundsmenu.spatialize_stereo=Стерео-позиционирование
 hodgepodge.soundsmenu.spatialize_stereo.tooltip=Сохраняет пространственные звуки в стерео, позволяя новой версии OpenAL позиционировать их в 3D. Требует lwjgl3ify и имеет приоритет над стерео-даунмиксом, если поддерживается. Обновите звуки после изменения.
-hodgepodge.soundsmenu.default=DEFAULT
+hodgepodge.soundsmenu.default=ПО УМОЛЧАНИЮ
 hodgepodge.bed_respawn.msg=Установить точку респауна
 hodgepodge.menu.mod_options=Настройки модов...
 

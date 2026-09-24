@@ -147,17 +147,17 @@ nei.chat.chunkoverlay.3=Отображение чанков: Жилы руды G
 nei.chat.moboverlay.0=Отображение спавна мобов: §cОткл
 nei.chat.moboverlay.1=Отображение спавна мобов: §2Вкл
 nei.chat.item_link.text=<%s> §6Нажмите, чтобы добавить закладку: %s
-nei.chat.item_link.item.text=Bookmark Item
-nei.chat.item_link.recipe.text=Bookmark Recipe
-nei.chat.item_link.group.text=Bookmark Group
+nei.chat.item_link.item.text=Закладка: предмет
+nei.chat.item_link.recipe.text=Закладка: рецепт
+nei.chat.item_link.group.text=Закладка: группа
 nei.chat.bookmark_added.text=Закладка добавлена!
 
 nei.chat.recipeid.many_params=Слишком много параметров! Использование: %s
 nei.chat.recipeid.not_found=Файл %s не найден!
 nei.chat.recipeid.diff.start=Запущена обработка разницы рецептов!
 nei.chat.recipeid.diff.finish=Завершена обработка разницы рецептов!
-nei.chat.recipeid.dump.start=Start processing recipe handlers!
-nei.chat.recipeid.dump.finish=Finished processing recipe handlers!
+nei.chat.recipeid.dump.start=Обработка обработчиков рецептов начата!
+nei.chat.recipeid.dump.finish=Обработка обработчиков рецептов завершена!
 
 nei.chat.untranslator.dump.start=Запущена обработка untranslator дампа!
 nei.chat.untranslator.dump.finish=Завершена обработка untranslator дампа!
@@ -575,7 +575,7 @@ nei.recipe.search.tooltip.name=Синтаксис фильтра
 nei.recipe.search.tooltip.shift=&7Удерживайте &6Shift&7 для большей информации
 nei.recipe.search.tooltip.input=%s§ftext§8 - §7поиск среди входов
 nei.recipe.search.tooltip.output=%s§ftext§8 - §7поиск среди выходов
-nei.recipe.search.tooltip.prefix=%stext§8 - §7%s
+nei.recipe.search.tooltip.prefix=%sтекст§8 - §7%s
 
 nei.recipe.search.tooltip.prefix.modName=поиск по моду
 nei.recipe.search.tooltip.prefix.tooltip=поиск по подсказке
@@ -684,7 +684,7 @@ nei.subsets.Items.Tools.Shovels=Лопаты
 nei.subsets.Items.Weapons=Оружие
 nei.subsets.Items.Weapons.Ranged=Дальнобойное
 nei.subsets.Items.Weapons.Swords=Мечи
-nei.subsets.Untranslated=Untranslated
+nei.subsets.Untranslated=Непереведённые
 nei.subsets.Mod=Мод
 
 nei.presets.new=Новый пресет

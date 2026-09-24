@@ -3,10 +3,10 @@ salisarcana:command.desc=Описание:
 salisarcana:command.usage=Использование:
 salisarcana:command.args=Аргументы:
 
-salisarcana:command.error.tabcomplete=An error occurred while getting tab-completion suggestions. Please open a bug report, including your server log, on the the Salis Arcana GitHub.
-salisarcana:command.error.execute=An error occurred while executing this command. If this happens again, please open a bug report, including your server log, on the the Salis Arcana GitHub.
+salisarcana:command.error.tabcomplete=Произошла ошибка при получении подсказок автодополнения. Пожалуйста, откройте баг-репорт с логом вашего сервера на GitHub проекта Salis Arcana.
+salisarcana:command.error.execute=Произошла ошибка при выполнении этой команды. Если это повторится, откройте баг-репорт с логом вашего сервера на GitHub проекта Salis Arcana.
 
-salisarcana:command.create-node.desc=Create a new randomly-generated node at the specified coordinates.
+salisarcana:command.create-node.desc=Создать новый случайно сгенерированный узел по указанным координатам.
 salisarcana:command.create-node.usage=§7/salisarcana-create-node §7<x> §7<y> §7<z> §7[-t §7<тип>] §7[-m §7<модификатор>] §7[--silverwood] §7[--eerie] §7[--small] §7[-a §7<аспект1> §7<4ол-во1>[ §7-a §7<аспект2> §7<кол-во2>[ §7...]]]§r
 salisarcana:command.create-node.args.coord=§7§o<x> <y> <z>§r §cОбязательно.§r Укажите, где будет создан узел.
 salisarcana:command.create-node.args.type=§7§o[-t <тип>]§r Укажите тип нового узла
@@ -18,7 +18,7 @@ salisarcana:command.create-node.args.aspect=§7§o[-a <аспект> <кол-в�
 
 salisarcana:command.create-node.failure=Не удалось создать узел: %d %d %d.
 
-salisarcana:command.forget-research.desc=Remove research from a player's knowledge.
+salisarcana:command.forget-research.desc=Убрать исследование из знаний игрока.
 salisarcana:command.forget-research.usage=§7/salisarcana-forget-research §7<--all §7§lИЛИ§r §7--research-key §7<ключ>[ §7--research-key §7<ключ2> §7...]> §7[--player §7<имя игрока>] §7[--scalpel]§r
 salisarcana:command.forget-research.args.all=§7<--all>§r Удалить все исследования из списка известных игроку исследований. Требуется, если §7research-key§r не предоставлен. Взаимоисключающий параметр с §7research-key§r и §7scalpel§r.
 salisarcana:command.forget-research.args.research=§7<--research-key>§r Укажите ID исследования, которое нужно удалить. Может быть указано несколько раз. Обязательно, если параметр §7all§r не задан. Взаимоисключающий параметр с §7all§r.
@@ -26,8 +26,8 @@ salisarcana:command.forget-research.args.player=§7[--player <имя игрок�
 salisarcana:command.forget-research.args.scalpel=§7[--scalpel]§r Если это установлено, указанное исследование будет удалено, но не его родственные или потомок. Это может привести к неожиданным побочным эффектам. Взаимоисключающе с §7all§r.
 salisarcana:command.forget-research.args.retain-warp=§7[--retain-warp]§r Если эта опция установлена, любые постоянные и/или липкие искажения, связанные с удаленными исследованиями, будут сохранены.
 
-salisarcana:command.forget-research.remove=§9Success:§r Removed %d research items and any associated warp, collectively removing %d permanent warp and %d sticky warp.
-salisarcana:command.forget-research.retain=§9Success:§r Removed %d research items. (%d permanent warp and %d sticky warp was §lnot§r removed.)
+salisarcana:command.forget-research.remove=§9Успех:§r Убрано исследований: %d вместе со связанным искажением — снято %d постоянного и %d липкого искажения.
+salisarcana:command.forget-research.retain=§9Успех:§r Убрано исследований: %d. (%d постоянного и %d липкого искажения §lне§r снято.)
 
 salisarcana:command.forget-scanned.desc=Сбрасывает списки отсканированных игроком объектов, позволяя повторно отсканировать эти объекты.
 salisarcana:command.forget-scanned.usage=§7/salisarcana-forget-scanned §7[--player §7<имя игрока>] §7[--objects] §7[--entities] §7[--nodes] §7[--all] §7[--aspects <...>]§r
@@ -41,10 +41,10 @@ salisarcana:command.forget-scanned.args.looking=§7[--looking]§r Сбросит
 salisarcana:command.forget-scanned.args.container=§7[--container]§r Сбросить все предметы в контейнере (например, сундуке), который вы просматриваете. Взаимоисключающий с §7--all§r.
 salisarcana:command.forget-scanned.args.all=§7[--all]§r Объединяет эффекты §7objects§r, §7entities§r и §7nodes§r
 
-salisarcana:command.forget-scanned.success=§9Success:§r %d entries were removed from %s's scan lists.
-salisarcana:command.forget-scanned.failure=§cFailure:§r There was nothing to remove from %s's scan lists.
+salisarcana:command.forget-scanned.success=§9Успех:§r Удалено записей: %d — из списков сканирования игрока %s.
+salisarcana:command.forget-scanned.failure=§cНеудача:§r В списках сканирования игрока %s нечего удалять.
 
-salisarcana:command.forget-aspect.desc=Forget or reset aspects from a player's knowledge.
+salisarcana:command.forget-aspect.desc=Забыть или сбросить аспекты в знаниях игрока.
 salisarcana:command.forget-aspect.usage=§7/salisarcana-forget-aspect §7[--player §7<имя игрока>] §7[--reset] §7[--forget] §7[--aspect <...>] §7[--all] §r
 salisarcana:command.forget-aspect.args.player=§7[--player §7<имя игрока>]§r Укажите игрока, чьи характеристики будут изменены. Если не указано, по умолчанию будет использоваться игрок, выполняющий эту команду.
 salisarcana:command.forget-aspect.args.reset=§7[--reset]§r Сбросить количество аспектов исследования, доступных игроку, до 1. Взаимоисключающий с §7forget§r.
@@ -52,12 +52,12 @@ salisarcana:command.forget-aspect.args.forget=§7[--forget]§r Забыть ас
 salisarcana:command.forget-aspect.args.aspect=§7[--aspect §7<aspect[ §7aspect[ §7...]]]§r Укажите аспект(ы), который(е) следует сбросить или удалить. Взаимоисключающий(ие) с §7all§r.
 salisarcana:command.forget-aspect.args.all=§7[--all]§r Сбросить или забыть все аспекты. Взаимоисключающие с §7aspect§r.
 
-salisarcana:command.forget-aspect.success=§9Success:§r %d aspects were altered for %s.
-salisarcana:command.forget-aspect.failure=§cFailure:§r There was nothing to alter for %s.
-salisarcana:command.forget-aspect.no-action=§cFailure:§r No action specified. You must specify either §7--reset§r or §7--forget§r.
+salisarcana:command.forget-aspect.success=§9Успех:§r Изменено аспектов: %d у игрока %s.
+salisarcana:command.forget-aspect.failure=§cНеудача:§r У игрока %s нечего менять.
+salisarcana:command.forget-aspect.no-action=§cНеудача:§r Действие не указано. Нужно указать либо §7--reset§r, либо §7--forget§r.
 
 salisarcana:command.help.desc=Получите справочную информацию о команде Salis Arcana.
-salisarcana:command.help.usage=§7/salisarcana-help §7[command]§r
+salisarcana:command.help.usage=§7/salisarcana-help §7[команда]§r
 salisarcana:command.help.args.cmd=§7§o[command]§r Название или псевдоним команды Salis Arcana.
 
 salisarcana:command.help.available=Доступные команды:
@@ -68,7 +68,7 @@ salisarrcana:command.infusion-symmetry.usage=§7/salisarcana-infusion-symmetry �
 salisarrcana:command.infusion-symmetry.args.coord=§7[<x> §7<y> §7<z>]§r Необязательно. Координаты рунической матрицы, стабильность которой следует проверить.
 salisarrcana:command.infusion-symmetry.not_found_coords=Руническая матрица по заданным координатам не была обнаружена.
 salisarrcana:command.infusion-symmetry.not_found_nearby=Рунической матрицы поблизости не обнаружено.
-salisarrcana:command.infusion-symmetry.found=§9This runic matrix can stabilize recipes up to instability§r %d.
+salisarrcana:command.infusion-symmetry.found=§9Эта руническая матрица стабилизирует рецепты с нестабильностью до§r %d.
 salisarrcana:command.infusion-symmetry.accessError=Произошла ошибка при выполнении этой команды. Пожалуйста, сообщите об этом авторам мода.
 
 salisarcana:command.list-research.desc=Список зарегистрированных исследований TC4, сгруппированных по вкладкам в Таумономиконе.
@@ -83,23 +83,23 @@ salisarcana:command.prereqs.args.research=§7[--research]§r Уникальны�
 salisarcana:command.prereqs.args.all=§7[--completed]§r Укажите предварительные исследования, которые вы уже завершили. Доступно только при использовании §7research§r.
 salisarcana:command.prereqs.args.item=§7[--item <id предмета> [item-damage]]§r ID строки и необязательное значение урона искомого предмета. Взаимоисключающий с §7research§r.
 
-salisarcana:command.prereqs.already_known=You have already completed %s.
+salisarcana:command.prereqs.already_known=Вы уже завершили %s.
 
 salisarcana:command.prereqs.header=Требования для разблокировки
 
 salisarcana:command.prereqs.triggers=Требования к сканированию:
 salisarcana:command.prereqs.triggers_or=или
-salisarcana:command.prereqs.triggers_aspects=something with one of these aspects
-salisarcana:command.prereqs.triggers_entities=one of these entities
-salisarcana:command.prereqs.triggers_items=one of these items
+salisarcana:command.prereqs.triggers_aspects=что-нибудь с одним из этих аспектов
+salisarcana:command.prereqs.triggers_entities=одно из этих существ
+salisarcana:command.prereqs.triggers_items=один из этих предметов
 
 salisarcana:command.prereqs.parents=Требования к исследованию:
 salisarcana:command.prereqs.parents_none=Нет
 
-salisarcana:command.prereqs.header_item=Research requirements to craft %s:
-salisarcana:command.prereqs.item_not_found=No research required to craft %s was found.
+salisarcana:command.prereqs.header_item=Исследования, нужные для крафта %s:
+salisarcana:command.prereqs.item_not_found=Исследований, необходимых для крафта %s, не найдено.
 
-salisarcana:command.update-node.desc=Update the properties of the node at the specified coordinates.
+salisarcana:command.update-node.desc=Изменить свойства узла по указанным координатам.
 salisarcana:command.update-node.usage=§7/salisarcana-update-node §7<x> §7<y> §7<z>§r §7[-t §7<тип>] §7[-m §7<модификатор>] §7[--set §7<аспект1> §7<кол-во1>[ §7--set §7<аспект2> §7<кол-во2> §7[...]]] §7[--rem §7<аспект3>[ §7--rem §7<аспект4>]]§r
 salisarcana:command.update-node.args.coord=§7§o<x> <y> <z>§r §cОбязательно.§r Укажите координаты узла, который необходимо обновить.
 salisarcana:command.update-node.args.type=§7§o[-t <тип>]§r Изменить тип узла
@@ -112,27 +112,27 @@ salisarcana:command.upgrade-focus.desc=Добавляет улучшения ф�
 salisarcana:command.upgrade-focus.usage=§7/salisarcana-upgrade-focus §7<upgrade[ §7upgrade[ §7...]]> §7[--player §7<имя игрока>]
 salisarcana:command.upgrade-focus.args.upgrades=§7<upgrade>§r Обязательно. Список из одного-пяти ID обновления, которые будут применены. ID обновления имеют вид §7<internalId>-<name>§r. Используйте автозаполнение по клавише Tab, чтобы увидеть доступные ID обновления.
 salisarcana:command.upgrade-focus.args.player=§7[--player]§r Если задано, улучшения будут применяться к фокусу указанного игрока, а не к вашему собственному.
-salisarcana:command.upgrade-focus.noItem=Target player is not holding a wand focus.
-salisarcana:command.upgrade-focus.noUpgrades=No focus upgrades specified.
-salisarcana:command.upgrade-focus.tooManyUpgrades=%d focus upgrade(s) could not be applied due to the five-upgrade limit. 
-salisarcana:command.upgrade-focus.success=All focus upgrades applied successfully.
+salisarcana:command.upgrade-focus.noItem=Целевой игрок не держит набалдашник жезла.
+salisarcana:command.upgrade-focus.noUpgrades=Улучшения набалдашника не указаны.
+salisarcana:command.upgrade-focus.tooManyUpgrades=Не удалось применить улучшений набалдашника: %d — из-за предела в пять улучшений. 
+salisarcana:command.upgrade-focus.success=Все улучшения набалдашника успешно применены.
 
-salisarcana:commands.export-research.success=§9Success:§r Exported %s research to %s.
+salisarcana:commands.export-research.success=§9Успех:§r Исследование %s экспортировано в %s.
 salisarcana:commands.export-research.usage=/salisarcana-export-research --research <ключ исследования> [--overwrite]
-salisarcana:commands.export-research.failed=§cFailure:§r Failed to export %s. Research likely has unsupported properties.
+salisarcana:commands.export-research.failed=§cНеудача:§r Не удалось экспортировать %s. Скорее всего, у исследования есть неподдерживаемые свойства.
 
-salisarcana:error.invalid_aspect="%s" is not a known aspect.
-salisarcana:error.invalid_focus_upgrade=%s is not a known focus upgrade.
-salisarcana:error.invalid_node_modifier=%s is not a known node modifier.
-salisarcana:error.invalid_node_type=%s is not a known node type.
-salisarcana:error.unexpected_value=Unexpected input "%s".
-salisarcana:error.unknown_value=Unknown value "%s".
-salisarcana:error.unknown_research=%s is not a known research key.
+salisarcana:error.invalid_aspect="%s" — неизвестный аспект.
+salisarcana:error.invalid_focus_upgrade=%s — неизвестное улучшение набалдашника.
+salisarcana:error.invalid_node_modifier=%s — неизвестный модификатор узла.
+salisarcana:error.invalid_node_type=%s — неизвестный тип узла.
+salisarcana:error.unexpected_value=Неожиданный ввод "%s".
+salisarcana:error.unknown_value=Неизвестное значение "%s".
+salisarcana:error.unknown_research=%s — неизвестный ключ исследования.
 
-salisarcana:update_available=A new version of Salis Arcana is available (%s). 
-salisarcana:update_link= §9Click here to open the download page.§r
+salisarcana:update_available=Доступна новая версия Salis Arcana (%s). 
+salisarcana:update_link= §9Нажмите здесь, чтобы открыть страницу загрузки.§r
 
-salisarcana:tcinventoryscan_notice=§eNotice:§r Thaumic Inventory Scanning is installed. It is §cdeprecated§r by Salis Arcana, and should be removed to avoid conflicts. You can enable Salis Arcana's scanning features in salisarcana/enhancements.cfg.
+salisarcana:tcinventoryscan_notice=§eВнимание:§r Установлен Thaumic Inventory Scanning. Salis Arcana делает его §cустаревшим§r, и его стоит удалить во избежание конфликтов. Функции сканирования Salis Arcana включаются в salisarcana/enhancements.cfg.
 
 tc.research_name.CAP_iron=Железные наконечники
 tc.research_name.ROD_wood=Деревянный стержень
@@ -143,11 +143,11 @@ salisarcana:tcinventoryscan.thaumometerTooltipMore=Наведите таумом
 
 tc.research_name.salisarcana:REPLACEWANDCAPS=Замена наконечника
 tc.research_text.salisarcana:REPLACEWANDCAPS=Улучшение того, что есть
-tc.research_page.salisarcana:REPLACEWANDCAPS.0=With proper technique, a casting implement's caps can be replaced. This destroys the implement's existing caps, but preserves its core.<BR>Replacing an implement's caps requires the same amount of vis as it would take to craft the same implement from scratch. Upgrading a Gold Banded Greatwood Wand to a Thaumium Bossed Greatwood Wand will cost just as much vis as creating a Thaumium Bossed Greatwood Wand directly.  
+tc.research_page.salisarcana:REPLACEWANDCAPS.0=При должном умении наконечники колдовского инструмента можно заменить. Прежние наконечники при этом уничтожаются, но стержень сохраняется.<BR>Замена наконечников стоит столько же виса, сколько ушло бы на изготовление такого же инструмента с нуля. Улучшить Окаймлённый золотом великодревесный жезл до Обитого таумием великодревесного жезла стоит ровно столько же виса, сколько создать Обитый таумием великодревесный жезл сразу.  
 
 tc.research_name.salisarcana:REPLACEWANDCORE=Замена стержня
 tc.research_text.salisarcana:REPLACEWANDCORE=Улучшение того, что есть
-tc.research_page.salisarcana:REPLACEWANDCORE.0=With proper technique, a casting implement's core can be replaced. This destroys the implement's existing core, but preserves its caps.<BR>Replacing an implement's core requires the same amount of vis as it would take to craft the same implement from scratch. Upgrading a Gold Banded Greatwood Wand to a Gold Banded Silverwood Wand will cost just as much vis as creating a Gold Banded Silverwood Wand directly.
+tc.research_page.salisarcana:REPLACEWANDCORE.0=При должном умении стержень колдовского инструмента можно заменить. Прежний стержень при этом уничтожается, но наконечники сохраняются.<BR>Замена стержня стоит столько же виса, сколько ушло бы на изготовление такого же инструмента с нуля. Улучшить Окаймлённый золотом великодревесный жезл до Окаймлённого золотом жезла из серебряного дерева стоит ровно столько же виса, сколько создать Окаймлённый золотом жезл из серебряного дерева сразу.
 
 tc.research_name.salisarcana:CHESTSCAN=Сканирование хранилищ
 tc.research_text.salisarcana:CHESTSCAN=Посмотрим немного ближе
@@ -155,21 +155,21 @@ tc.research_page.salisarcana:CHESTSCAN.0=Благодаря твоим иссл�
 
 item.Wand.staffter.obj=посохипетр
 
-focus.upgrade.salisarcana:disenchant.name=Disenchant Focus
-focus.upgrade.salisarcana:disenchant.text=Remove the last upgrade applied to the focus and refund some of the XP spent.
-focus.upgrade.salisarcana:disenchant.text.generic=Remove the last upgrade applied to the focus and refund %d%% of the XP spent.
-focus.upgrade.salisarcana:disenchant.text.specific=Remove §5%s§r from this focus and refund §a%d XP§r.
+focus.upgrade.salisarcana:disenchant.name=Снятие чар
+focus.upgrade.salisarcana:disenchant.text=Снимает последнее улучшение, наложенное на набалдашник, и возвращает часть потраченного опыта.
+focus.upgrade.salisarcana:disenchant.text.generic=Снимает последнее улучшение, наложенное на набалдашник, и возвращает %d%% потраченного опыта.
+focus.upgrade.salisarcana:disenchant.text.specific=Снимает §5%s§r с этого набалдашника и возвращает §a%d опыта§r.
 
-tc.research_name.salisarcana:FOCUS_DISENCHANTING=Focal Disenchanting
-tc.research_text.salisarcana:FOCUS_DISENCHANTING=Regretting your choices
-tc.research_page.salisarcana:FOCUS_DISENCHANTING.0=While experimenting with the Focal Manipulator, you often found yourself left with perfectly functional foci which were ruined by their upgrades.<BR>To your delight, some additional experimentation revealed that the enchantments on foci are nowhere near as permanent as they seem.<BR>By applying §8Perditio§0 CV to any upgraded focus in the Focal Manipulator, you can remove the last upgrade applied to the focus and recover up to %d%% of the experience spent on that upgrade.
-tc.research_page.salisarcana:FOCUS_DISENCHANTING.1=(Since each level stores more experience as you gain more levels, upgrading a focus at a level higher than the minimum will lose additional experience due to the larger experience bars being consumed.)
+tc.research_name.salisarcana:FOCUS_DISENCHANTING=Снятие чар с набалдашников
+tc.research_text.salisarcana:FOCUS_DISENCHANTING=Жалеешь о своём выборе
+tc.research_page.salisarcana:FOCUS_DISENCHANTING.0=Экспериментируя с Манипулятором набалдашников, вы то и дело оставались с прекрасно работающими набалдашниками, испорченными неудачными улучшениями.<BR>К вашей радости, дальнейшие опыты показали, что чары на набалдашниках вовсе не так постоянны, как кажутся.<BR>Приложив §8Perditio§0 CV к любому улучшенному набалдашнику в Манипуляторе набалдашников, вы снимете последнее наложенное улучшение и вернёте до %d%% опыта, потраченного на него.
+tc.research_page.salisarcana:FOCUS_DISENCHANTING.1=(Поскольку с ростом уровня в каждом уровне хранится всё больше опыта, улучшение набалдашника на уровне выше минимального обойдётся в дополнительный опыт: тратятся более «толстые» уровни.)
 
 salisarcana:error_missing_research.infusion=Вам не хватает исследований, чтобы начать Наполнение! Вы должны исследовать "%s" в %s, прежде чем сможете создать этот предмет!
 salisarcana:error_missing_research.crucible=У вас не хватает исследований для создания этого рецепта в Тигле! Вы должны исследовать "%s" в %s, прежде чем сможете создать этот предмет!
 salisarcana:error_missing_research.gui=Отсутствует исследование
 
-salisarcana:duplicate_research.extra_page=§l[Salis Arcana]§r<BR>Additionally, while hovering over any completed research in the Thaumonomicon, a new button will become visible.<BR>Shift-clicking this button will create a completed research paper of that research at the cost of paper, some ink from your Scribing Tools, and some research aspects.
+salisarcana:duplicate_research.extra_page=§l[Salis Arcana]§r<BR>Кроме того, при наведении на любое завершённое исследование в Таумономиконе появится новая кнопка.<BR>Shift+клик по ней создаст готовую исследовательскую записку по этому исследованию ценой бумаги, чернил из вашей чернильницы с пером и некоторого количества аспектов исследования.
 salisarcana:duplicate_research.text=Копия "%s"
 salisarcana:duplicate_research.prompt=Shift+ЛКМ, чтобы сделать копию данного исследования
 salisarcana:duplicate_research.success=В инвентарь добавлен дубликат исследования
@@ -178,35 +178,35 @@ tile.blockPortalNothing.name=Портал в ничто
 
 slot.focus_pouch=§aСумка для набалдашников§7
 
-salisarcana:misc.golem.reject_player=You are not my Master!
+salisarcana:misc.golem.reject_player=Ты мне не хозяин!
 salisarcana:misc.warded.destroy_ender_pearl=Магия находящегося поблизости защищенного объекта уничтожает жемчуг эндера!
-salisarcana:misc.arcane_pressure_plate.everyone=It will now trigger on everything.
-salisarcana:misc.arcane_pressure_plate.not_you=It will now trigger on everything except you.
-salisarcana:misc.arcane_pressure_plate.only_you=It will now trigger on just you.
-salisarcana:misc.mirror.already_linked=That mirror is already linked to a valid destination.
+salisarcana:misc.arcane_pressure_plate.everyone=Теперь она срабатывает на всё.
+salisarcana:misc.arcane_pressure_plate.not_you=Теперь она срабатывает на всё, кроме вас.
+salisarcana:misc.arcane_pressure_plate.only_you=Теперь она срабатывает только на вас.
+salisarcana:misc.mirror.already_linked=Это зеркало уже связано с рабочей целью.
 
 salisarcana:misc.arcane_key.creator=§5§oСоздано: %s
 salisarcana:misc.arcane_key.dimension= (измерение %s)
 
-item.Wand.salisarcana:unknown.cap=[INVALID CAP]
-item.Wand.salisarcana:unknown.rod=[INVALID CORE]
+item.Wand.salisarcana:unknown.cap=[НЕВЕРНЫЙ НАКОНЕЧНИК]
+item.Wand.salisarcana:unknown.rod=[НЕВЕРНЫЙ СТЕРЖЕНЬ]
 salisarcana:unknown_wand.craft=§4Поместите в сетку крафта, чтобы удалить все недействительные компоненты.
 
 salisarcana:error.preface=Ошибка Salis Arcana: 
 salisarcana:error.potion_id_limit=%s был присвоен ID %d, что превышает безопасный предел в 127. Если лимит был увеличен другим модом, пожалуйста, установите параметр _uncapped_potion_ids в значение `true` в настройках Salis Arcana.
 salisarcana:error.potion_id_claimed=%s не удалось присвоить ID %d в соответствии с настройками, поскольку этот ID уже присвоен другому эффекту зелья.
-salisarcana:error.potion_array_too_long=No more unassigned potion ids could be found within the safe limit. If the limit has been raised through another mod, please set _uncapped_potion_ids to `true` in the Salis Arcana feature configs.
+salisarcana:error.potion_array_too_long=Свободных id зелий в пределах безопасного лимита больше не найдено. Если лимит повышен другим модом, задайте _uncapped_potion_ids значение `true` в настройках возможностей Salis Arcana.
 
 salisarcana:wand_part.show_details=§8Удерживайте §6CTRL§8, чтобы отобразить статистику Thaumcraft жезла
-salisarcana:wand_part.cannot_preserve_node=§4Cannot preserve nodes!
+salisarcana:wand_part.cannot_preserve_node=§4Нельзя сохранить узлы!
 salisarcana:wand_cap.vis_discount.generic=§5Скидка: %s
 salisarcana:wand_cap.vis_discount.aspect=%s §5Скидка: %s
 salisarcana:wand_cap.price_mult=§3Множитель стоимости крафта: §e%sx
 salisarcana:wand_rod.vis_capacity=§5Ёмкость: §d%s вис
 salisarcana:wand_rod.base_price=§3Базовая стоимость крафта: §d%s вис
-salisarcana:wand_rod.gtnh_wands_price=§3Crafting Cost: §d%s + (%d * cap multiplier) vis
-salisarcana:wand_rod.gtnh_scepter_mult=§3Scepter Multiplier: §d%sx
-salisarcana:wand_rod.gtnh_staffter_mult=§3Staffter Multiplier: §d%sx
+salisarcana:wand_rod.gtnh_wands_price=§3Стоимость крафта: §d%s + (%d * множитель наконечников) вис
+salisarcana:wand_rod.gtnh_scepter_mult=§3Множитель скипетра: §d%sx
+salisarcana:wand_rod.gtnh_staffter_mult=§3Множитель стаффтера: §d%sx
 salisarcana:wand_rod.runes=§5+1 к силе§2 для любого экипированного фокуса
 
 salisarcana:wand_rod.special.obsidian=§5Регенерирует §21 Terra§d вис§5 каждые 10 секунд (макс. §d10% вис§5)
@@ -231,55 +231,55 @@ salisarcana:wand_rod.special.AMBER_staff=§5Регенерирует §d1 вис
 salisarcana:wand_rod.special.BREAD=§6Разумный, француз и довольно болтливый!
 salisarcana:wand_rod.special.TRANSMUTATION=§5Мгновенно восполняет любые аспекты ниже §d90% вис§5 путем преобразования других аспектов выше §d90% вис§5.
 salisarcana:wand_rod.special.TRANSMUTATION_staff=§5Мгновенно восполняет любые аспекты ниже §d90% вис§5 путем преобразования других аспектов выше §d90% вис§5.
-salisarcana:wand_rod.special.NECROMANCER_staff.1=§5Quadruples the vis collected from aspect orbs from dead mobs,
-salisarcana:wand_rod.special.NECROMANCER_staff.2=  §5loses 25% of vis from all other sources.
-salisarcana:wand_rod.special.NECROMANCER_staff.3=§5Applies §8Wither I§5 for 5 seconds to opponents when attacking with the staff.
-salisarcana:wand_rod.special.NECROMANCER_staff.4=  §5(melee attacks & non-projectile magical attacks only)
-salisarcana:wand_cap.special.SOJOURNER.1=§5When held, drains §d1 primal vis§5 every second from any Aura Node
-salisarcana:wand_cap.special.SOJOURNER.2=  §5within 8 blocks of the player. (will not damage nodes)
-salisarcana:wand_cap.special.MECHANIST=§5Drains vis from Aura Nodes twice as fast.
+salisarcana:wand_rod.special.NECROMANCER_staff.1=§5Учетверяет вис, собираемый из аспектных сфер убитых мобов,
+salisarcana:wand_rod.special.NECROMANCER_staff.2=  §5теряет 25% виса из всех остальных источников.
+salisarcana:wand_rod.special.NECROMANCER_staff.3=§5Накладывает §8Иссушение I§5 на 5 секунд при ударе посохом.
+salisarcana:wand_rod.special.NECROMANCER_staff.4=  §5(только ближний бой и неснарядные магические атаки)
+salisarcana:wand_cap.special.SOJOURNER.1=§5В руке вытягивает §d1 первичный вис§5 в секунду из любого узла ауры
+salisarcana:wand_cap.special.SOJOURNER.2=  §5в радиусе 8 блоков от игрока. (узлы не повреждает)
+salisarcana:wand_cap.special.MECHANIST=§5Вытягивает вис из узлов ауры вдвое быстрее.
 
-salisarcana:wand_cap.special.manasteel=§525% discount on §bBotania mana drain§5 for regenerating vis.
-salisarcana:wand_cap.special.elementium=§525% discount on §bBotania mana drain§5 for regenerating vis.
+salisarcana:wand_cap.special.manasteel=§5Скидка 25% на §bрасход маны Botania§5 при восстановлении виса.
+salisarcana:wand_cap.special.elementium=§5Скидка 25% на §bрасход маны Botania§5 при восстановлении виса.
 salisarcana:wand_rod.special.livingwood.1=§5Регенерирует §d1 вис§5 каждого аспекта каждые 2 секунды (макс. §d100% вис§5)
-salisarcana:wand_rod.special.livingwood.2=  §5at the cost of §bsome Botania mana§5.
+salisarcana:wand_rod.special.livingwood.2=  §5ценой §bнекоторого количества маны Botania§5.
 salisarcana:wand_rod.special.dreamwood.1=§5Регенерирует §d1 вис§5 каждого аспекта каждые 2 секунды (макс. §d100% вис§5)
-salisarcana:wand_rod.special.dreamwood.2=  §5at the cost of §bsome Botania mana§5.
+salisarcana:wand_rod.special.dreamwood.2=  §5ценой §bнекоторого количества маны Botania§5.
 salisarcana:wand_rod.special.dreamwood_staff.1=§5Регенерирует §d1 вис§5 каждого аспекта каждые 2 секунды (макс. §d100% вис§5)
-salisarcana:wand_rod.special.dreamwood_staff.2=  §5at the cost of §bsome Botania mana§5.
+salisarcana:wand_rod.special.dreamwood_staff.2=  §5ценой §bнекоторого количества маны Botania§5.
 
-salisarcana:wand_cap.special.alchemical=§520% discount on §4LP costs§5 for regenerating vis.
+salisarcana:wand_cap.special.alchemical=§5Скидка 20% на §4расход LP§5 при восстановлении виса.
 salisarcana:wand_rod.special.blood.1=§5Регенерирует §d1 вис§5 каждого аспекта каждые 5 секунд (макс. §d100% вис§5)
 salisarcana:wand_rod.special.blood.2=  §5использует §4500 LP§5 или §41.5 сердца§5 за вис.
-salisarcana:wand_rod.special.blood.3=§5Inflicts §8Weakness III§5 on spell targets when combined with Alchemical Caps.
+salisarcana:wand_rod.special.blood.3=§5В паре с алхимическими наконечниками накладывает §8Слабость III§5 на цели заклинаний.
 salisarcana:wand_rod.special.blood_staff.1=§5Регенерирует §d1 вис§5 каждого аспекта каждые 1.25 секунд (макс. §d100% вис§5)
 salisarcana:wand_rod.special.blood_staff.2=  §5использует §4500 LP§5 или §41.5 сердцы§5 за вис (только в режиме хотбара)
-salisarcana:wand_rod.special.blood_staff.3=§4Can kill you if you run out of LP!
-salisarcana:wand_rod.special.blood_staff.4=§5Inflicts §8Weakness III§5 on spell targets when combined with Alchemical Caps.
+salisarcana:wand_rod.special.blood_staff.3=§4Может убить вас, если LP закончится!
+salisarcana:wand_rod.special.blood_staff.4=§5В паре с алхимическими наконечниками накладывает §8Слабость III§5 на цели заклинаний.
 
 salisarcana:wand_rod.special.infernal.1=§5Регенерирует §c1 Ignis§d вис§5 каждые 5 секунд (макс. §d20% вис§5)
 salisarcana:wand_rod.special.infernal.2=§5Регенерирует §d1 вис §5 всех других типов каждые 5 секунд, находясь в §4Аду§5 (макс. §d10% вис§5)
-salisarcana:wand_rod.special.infernal.3=§4Extinguishes fire§5 and removes the §8Wither§5 effect.
+salisarcana:wand_rod.special.infernal.3=§4Тушит огонь§5 и снимает эффект §8Иссушение§5.
 salisarcana:wand_rod.special.profane.1=§5Восстанавливает §dвсю израсходованную вис §5каждую секунду (макс. §d100% вис§5)
-salisarcana:wand_rod.special.profane.2=  §5at the cost of 1 warp per §d25.01 vis§5.
-salisarcana:wand_rod.special.profane.3=§5After recovering §d250 vis§5, it §4burns out§5 forever & gives 1 extra warp.
+salisarcana:wand_rod.special.profane.2=  §5ценой 1 искажения за §d25.01 виса§5.
+salisarcana:wand_rod.special.profane.3=§5Восстановив §d250 виса§5, он §4перегорает§5 навсегда и даёт ещё 1 искажение.
 salisarcana:wand_rod.special.tainted.1=§5Регенерирует §d1 вис§5 каждого аспекта каждые 5 секунд, находясь в Tainted Land (макс. §d10% вис§5)
-salisarcana:wand_rod.special.tainted.2=§5Gains §d3 vis§5 of random aspects if the wand is held when you take taint damage.
+salisarcana:wand_rod.special.tainted.2=§5Даёт §d3 виса§5 случайных аспектов, если жезл в руке, когда вы получаете урон от порчи.
 
 salisarcana:wand_rod.special.witchwood.1=§5Регенерирует §d1 вис§5 каждого аспекта каждые 5 секунд (макс. §d100% вис§5)
-salisarcana:wand_rod.special.witchwood.2=  §5at the cost of §9140 Ars Magica 2 mana§5 per vis.
+salisarcana:wand_rod.special.witchwood.2=  §5ценой §9140 маны Ars Magica 2§5 за вис.
 salisarcana:wand_rod.special.witchwood_staff.1=§5Регенерирует §d1 вис§5 каждого аспекта каждые 2 секунды (макс. §d100% вис§5)
-salisarcana:wand_rod.special.witchwood_staff.2=  §5at the cost of §9100 Ars Magica 2 mana§5 per vis.
-salisarcana:wand_cap.special.vinteum=§5Reduces the §9Ars Magica mana§5 cost of Witchwood cores' vis regeneration by about half.
+salisarcana:wand_rod.special.witchwood_staff.2=  §5ценой §9100 маны Ars Magica 2§5 за вис.
+salisarcana:wand_cap.special.vinteum=§5Примерно вдвое снижает §9расход маны Ars Magica§5 на восстановление виса стержнями из ведьмина дерева.
 
 salisarcana:wand_rod.special.alfheimSpiritual_staff.1=§5Регенерирует §d1 вис§5 каждого аспекта каждые 2 секунды (макс. §d100% вис§5)
-salisarcana:wand_rod.special.alfheimSpiritual_staff.2=  §5at the cost of §bsome Botania mana§5.
-salisarcana:wand_rod.special.alfheimSpiritual_staff.3=§5If paired with Alfheim wand caps, reduces the §bmana cost§5 of
-salisarcana:wand_rod.special.alfheimSpiritual_staff.4=  §5regenerating vis by your armor's §bmana discounts§5.
+salisarcana:wand_rod.special.alfheimSpiritual_staff.2=  §5ценой §bнекоторого количества маны Botania§5.
+salisarcana:wand_rod.special.alfheimSpiritual_staff.3=§5В паре с альфхеймскими наконечниками снижает §bрасход маны§5 на
+salisarcana:wand_rod.special.alfheimSpiritual_staff.4=  §5восстановление виса на §bскидки маны§5 вашей брони.
 
 salisarcana:wand_rod.special.tbthaumium=§5Регенерирует §d1 вис§5 случайного неограниченного аспекта каждые 2.5 секунд (макс. §d10% вис§5)
 salisarcana:wand_rod.special.tbvoid=§5Регенерирует §d1 вис§5 случайного неограниченного аспекта каждые 2.5 секунд (макс. §d10% вис§5)
 
-tc.key.change_wand_focus=Change Wand Focus
-tc.key.hover_harness=Activate Hover Harness
-tc.key.wand_toggle=Misc Wand Toggle
+tc.key.change_wand_focus=Сменить набалдашник жезла
+tc.key.hover_harness=Включить парящую упряжь
+tc.key.wand_toggle=Прочее переключение жезла

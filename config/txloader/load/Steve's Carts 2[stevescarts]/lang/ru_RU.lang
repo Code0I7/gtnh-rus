@@ -312,9 +312,9 @@ item.SC2:creative_supplies.name=Творческий поставщик ресу
 item.SC2:color_randomizer.name=Рандомизатор цвета
 item.SC2:crop_exotic.name=Семя: Экзотические
 item.SC2:train_connector.name=Соединитель поездов
-item.SC2:electric_engine_lv.name=Электродвигатель LV
-item.SC2:electric_engine_mv.name=Электродвигатель MV
-item.SC2:electric_engine_hv.name=Электродвигатель HV
+item.SC2:electric_engine_lv.name=Электродвигатель §2[LV]§r
+item.SC2:electric_engine_mv.name=Электродвигатель §6[MV]§r
+item.SC2:electric_engine_hv.name=Электродвигатель §e[HV]§r
 item.SC2:crop_ic2.name=Семя: IC2
 
 

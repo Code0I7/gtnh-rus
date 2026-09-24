@@ -1,4 +1,4 @@
-tile.printer.name=Open Printer
+tile.printer.name=Принтер
 tile.shredder.name=Открыть Шредер
 tile.filecabinet.name=Открыть Картотеку
 item.printerPaper.name=Бумага для принтера
@@ -8,7 +8,7 @@ item.printerInkBlack.name=Чёрные чернила
 item.printerInkColor.name=Цветные чернила
 item.shreddedPaper.name=Клочья бумаги
 item.filefolder.name=Папка
-gui.string.printer=Open Printer
+gui.string.printer=Принтер
 gui.string.blackInk=Чёрные чернила
 gui.string.colorInk=Цветные чернила
 gui.string.paperInput=Ввод бумаги

@@ -174,7 +174,7 @@ enderio.lightBlocker=Блокирует свет
 enderio.tooltip.isBeaconBase=Может быть использовано, как основа для маяка
 enderio.dustWheat.name=Мука
 
-enderio.itemEnderios.name="Enderios"
+enderio.itemEnderios.name=«Эндериос»
 enderio.itemEnderios.tooltip.common.line1=Часть сбалансированного завтрака!
 enderio.itemEnderios.tooltip.detailed.line1=Не совсем нездоровая пища. Содержит 253г сахара, 53г жиров
 enderio.itemEnderios.tooltip.detailed.line2=и 394г пыли жемчуга Эндера.

@@ -38,7 +38,7 @@ container.cookingforblockheads:toolrack=Стойка для кухонных п�
 
 itemGroup.cookingforblockheads=Cooking for Blockheads
 
-cookingforblockheads:recipebook_tier0.tooltip=#NoFilter Edition
+cookingforblockheads:recipebook_tier0.tooltip=Издание #БезФильтра
 cookingforblockheads:recipebook_tier0.tooltipDesc=Показывает все рецепты еды.
 
 cookingforblockheads:recipebook_tier1.tooltip=Книга рецептов

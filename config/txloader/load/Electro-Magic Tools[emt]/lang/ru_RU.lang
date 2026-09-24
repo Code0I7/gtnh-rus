@@ -41,7 +41,7 @@ tooltip.EMT.underwater=под водой
 tooltip.EMT.output.double=Выход увеличен на 2,
 tooltip.EMT.output.triple=Выход увеличен на 3
 tooltip.EMT.output.double.nether=если она находится в Нижнем мире
-tooltip.EMT.output.double.lava=если подавать Ignis сенти-вис
+tooltip.EMT.output.double.lava=если подавать §cIgnis§7 сенти-вис
 tooltip.EMT.output.double.half.height=если она находится выше Y = 160
 tooltip.EMT.output.double.half.low=если она находится ниже Y = 10
 
@@ -118,12 +118,12 @@ tile.EMT.electricCloud.name=Наэлектризованное облако
 tile.EMT.shield.name=Щит-блок
 tile.EMT.portablenode.name=Переносной узел
 tile.EMT.essentia.name=Генератор на эссенции
-tile.EMT.essentia.potentia.name=Potentia генератор
-tile.EMT.essentia.ignis.name=Ignis генератор
-tile.EMT.essentia.auram.name=Auram генератор
-tile.EMT.essentia.arbor.name=Arbor генератор
-tile.EMT.essentia.aer.name=Aer генератор
-tile.EMT.essentia.lucrum.name=Lucrum генератор
+tile.EMT.essentia.potentia.name=§5Potentia§r генератор
+tile.EMT.essentia.ignis.name=§cIgnis§r генератор
+tile.EMT.essentia.auram.name=§5Auram§r генератор
+tile.EMT.essentia.arbor.name=§5Arbor§r генератор
+tile.EMT.essentia.aer.name=§eAer§r генератор
+tile.EMT.essentia.lucrum.name=§5Lucrum§r генератор
 tile.EMT.machine.name=Механизм
 tile.EMT.machine.wandrecharge.name=Промышленная станция зарядки жезлов
 tile.EMT.machine.etheralprocessor.name=Эфирный обработчик
@@ -191,7 +191,7 @@ tile.EMT.Septuple_Compressed_Terra_Solar.name=Наполненная землё�
 tile.EMT.Octuple_Compressed_Terra_Solar.name=Наполненная землёй, восьмикратносжатая солнечная панель
 
 #=============Thaumonomicon Texts=============
-emt.rsname.Electric Magic Tools=Electric Magic Tools
+emt.rsname.Electric Magic Tools=Электромагические инструменты
 emt.tag.Electric Magic Tools=Кто сказал что магия и технология не дружат вместе?
 emt.text.Electric Magic Tools=Кто сказал, что магия не может дружить с технологией? Наши исследователи сотрудничали с лучшими магами школы тауматургов, чтобы приподнести Вам эффективность магии, в сочетании с удобством электроинструментов.
 
@@ -252,29 +252,29 @@ emt.rsname.Wand Focus: Maintenance=Таумическое обслуживани
 emt.tag.Wand Focus: Maintenance=Кому нужен ящик с инструментами, когда у вас есть магия?
 emt.text.Wand Focus: Maintenance=После интенсивного изучения предположительно механической природы вашего аппарата вы, наконец, сделали это, вы обнаружили метод, позволяющий использовать Вис в ремонте.<BR> Что представляют собой несколько взорванных чистых помещений на фоне явного прогресса? Теперь вы можете избавиться от этих подлых обыденных инструментов...
 
-emt.rsname.Potentia Generator=Potentia генератор
+emt.rsname.Potentia Generator=§5Potentia§r генератор
 emt.tag.Potentia Generator=Освоение производящего потенциала эссенции
-emt.text.Potentia Generator=После долгих изучений и исследований, Вы, наконец-то, узнали как получить электричество от остатков эссенции.<BR><BR>Просто поместите банку, содержащую Potentia, в радиусе 8 блоков от механизма и она заставит его вырабатывать EU.<BR><BR>Хотя Potentia кажется наиболее логичным выбором для производства EU с помощью эссенции, Вы уверены, что Вы сможете производить электричество из различных эссенций в ближайшем будущем.
+emt.text.Potentia Generator=После долгих изучений и исследований, Вы, наконец-то, узнали как получить электричество от остатков эссенции.<BR><BR>Просто поместите банку, содержащую §5Potentia§0, в радиусе 8 блоков от механизма и она заставит его вырабатывать EU.<BR><BR>Хотя §5Potentia§0 кажется наиболее логичным выбором для производства EU с помощью эссенции, Вы уверены, что Вы сможете производить электричество из различных эссенций в ближайшем будущем.
 
-emt.rsname.Lucrum Generator=Lucrum генератор
+emt.rsname.Lucrum Generator=§5Lucrum§r генератор
 emt.tag.Lucrum Generator=Жадность - золото...?
-emt.text.Lucrum Generator=Ваша любовь к золоту прогрессирует, и вы придумываете как конвертировать Lucrum в энергию.<BR><BR>Наполняя Potentia генератор огромными количествами золота, эссенциями Permutatio и Lucrum, вам удается создать мощный генератор энергии, который буквально питается золотом.<BR><BR>Как вы и ожидали, процесс создания нестабилен и может провалиться от любой мелочи.
+emt.text.Lucrum Generator=Ваша любовь к золоту прогрессирует, и вы придумываете как конвертировать §5Lucrum§0 в энергию.<BR><BR>Наполняя §5Potentia§0 генератор огромными количествами золота, эссенциями §5Permutatio§0 и §5Lucrum§0, вам удается создать мощный генератор энергии, который буквально питается золотом.<BR><BR>Как вы и ожидали, процесс создания нестабилен и может провалиться от любой мелочи.
 
-emt.rsname.Ignis Generator=Ignis генератор
+emt.rsname.Ignis Generator=§cIgnis§r генератор
 emt.tag.Ignis Generator=Если Вы не можете справиться с жаром...
-emt.text.Ignis Generator=Так же, как Вы думали, после небольшой настройки, Вы обнаружили способ использования эссенции Ignis для получения электричества. Внутри, этот механизм способен нагреть воду, потребляя Ignis. Вырабатываемый пар затем вращает турбины, аналогично типичному генератору.
+emt.text.Ignis Generator=Так же, как Вы думали, после небольшой настройки, Вы обнаружили способ использования эссенции §cIgnis§0 для получения электричества. Внутри, этот механизм способен нагреть воду, потребляя §cIgnis§0. Вырабатываемый пар затем вращает турбины, аналогично типичному генератору.
 
-emt.rsname.Auram Generator=Auram генератор
+emt.rsname.Auram Generator=§5Auram§r генератор
 emt.tag.Auram Generator=Освоение магии в воздухе
-emt.text.Auram Generator=Хотя потребовалось немного больше работы, чем Вы первоначально думали, Вы обнаружили способ производить EU, используя эссенцию Auram. Это потребовало полную переделку механизма, опираясь на магическую пульсирующую силу Auram.
+emt.text.Auram Generator=Хотя потребовалось немного больше работы, чем Вы первоначально думали, Вы обнаружили способ производить EU, используя эссенцию §5Auram§0. Это потребовало полную переделку механизма, опираясь на магическую пульсирующую силу §5Auram§0.
 
-emt.rsname.Arbor Generator=Arbor генератор
+emt.rsname.Arbor Generator=§5Arbor§r генератор
 emt.tag.Arbor Generator=Возвращает производство энергии к её истокам
-emt.text.Arbor Generator=У Вас всегда есть избыток эссенции Arbor? Уже нет! После модификации Potentia генератора, Вы обнаружили способ производства энергии, используя эссенцию Arbor.
+emt.text.Arbor Generator=У Вас всегда есть избыток эссенции §5Arbor§0? Уже нет! После модификации §5Potentia§0 генератора, Вы обнаружили способ производства энергии, используя эссенцию §5Arbor§0.
 
-emt.rsname.Aer Generator=Aer генератор
+emt.rsname.Aer Generator=§eAer§r генератор
 emt.tag.Aer Generator=Сжатие Вашей окружающей среды
-emt.text.Aer Generator=Вы обнаружили огромную энергию в воздухе и поэтому решили попробовать модифицировать обычный Potentia генератор, чтобы позволить ему сжимать воздух из эссенции Aer, отдавая 300 EU за единицу эссенции.
+emt.text.Aer Generator=Вы обнаружили огромную энергию в воздухе и поэтому решили попробовать модифицировать обычный §5Potentia§0 генератор, чтобы позволить ему сжимать воздух из эссенции §eAer§0, отдавая 300 EU за единицу эссенции.
 
 emt.rsname.Chainsaw of the Stream=Электропила Потока
 emt.tag.Chainsaw of the Stream=Вырубка деревьев одним махом

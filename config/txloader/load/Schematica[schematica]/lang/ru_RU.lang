@@ -130,7 +130,7 @@ schematica.key.layerInc=Следующий слой
 schematica.key.layerDec=Предыдущий слой
 
 # commands - save
-schematica.command.save.usage=/schematicaSave <startX> <startY> <startZ> <endX> <endY> <endZ> <name>
+schematica.command.save.usage=/schematicaSave <startX> <startY> <startZ> <endX> <endY> <endZ> <имя>
 schematica.command.save.playersOnly=Только игроки могут использовать данную команду.
 schematica.command.save.started=Сохранение %d чанка(-ов) в файл "%s"...
 schematica.command.save.saveSucceeded=Схема "%s" сохранена.
@@ -148,13 +148,13 @@ schematica.command.list.noSuchPage=Данной страницы не сущес
 schematica.command.list.noSchematics=У вас нет доступных схем.
 
 # commands - remove
-schematica.command.remove.usage=/schematicaRemove <name>
+schematica.command.remove.usage=/schematicaRemove <имя>
 schematica.command.remove.schematicRemoved=Схема "%s" удалена.
 schematica.command.remove.schematicNotFound=Схему "%s" не удалось найти.
 schematica.command.remove.areYouSure=Вы уверены?
 
 # commands - download
-schematica.command.download.usage=/schematicaDownload <name>
+schematica.command.download.usage=/schematicaDownload <имя>
 schematica.command.download.started=Начата загрузка %s...
 schematica.command.download.downloadSucceeded=Успешно загружен %s.
 schematica.command.download.downloadFail=Загрузка не удалась.

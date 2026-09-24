@@ -495,7 +495,7 @@ witchinggadgets_research_name.GEMCUT_TABLE=Плоская огранка
 witchinggadgets_research_text.GEMCUT_TABLE=[WG] Побрякушки
 witchinggadgets_research_page.GEMCUT_TABLE.1=<IMG>witchinggadgets:textures/gui/research/gemcuts.png:80:0:80:80:1</IMG>В столе для огранки
 witchinggadgets_research_name.GEMCUT_STEP=Ступенчатая огранка
-witchinggadgets_research_text.GEMCUT_STEP=[WG] Shwing
+witchinggadgets_research_text.GEMCUT_STEP=[WG] Вжух
 witchinggadgets_research_page.GEMCUT_STEP.1=<IMG>witchinggadgets:textures/gui/research/gemcuts.png:160:0:80:80:1</IMG>В столе для огранки
 witchinggadgets_research_name.GEMCUT_ROSE=Огранка роза
 witchinggadgets_research_text.GEMCUT_ROSE=[WG] Блеск
@@ -565,7 +565,7 @@ witchinggadgets_research_page.PRIMORDIALARMOR.2=§l§nПервобытное с�
 
 #EMPOWERPEARL
 witchinggadgets_research_name.EMPOWERPEARL=Жемчужная ревитализация
-witchinggadgets_research_text.EMPOWERPEARL=[WG] 120 bpm
+witchinggadgets_research_text.EMPOWERPEARL=[WG] 120 уд/мин
 witchinggadgets_research_page.EMPOWERPEARL.1=Сила, которая когда-то пульсировала через Первородную жемчужину, ушла. Ну, не пропал, просто вливается в другой предмет. Но не вся надежда потеряна! Сама жемчужина всё ещё существует, вам просто нужно усилить её ещё раз, наполнив её...
 
 #TERRAFORMER
@@ -575,22 +575,22 @@ witchinggadgets_research_page.TERRAFORMER.1=Когда простое садов
 
 witchinggadgets_research_name.TERRAFORMFOCUS_PLAINS=Фокус Земли: Равнины
 witchinggadgets_research_text.TERRAFORMFOCUS_PLAINS=[WG] Ровные равнины
-witchinggadgets_research_page.TERRAFORMFOCUS_PLAINS.1=Самый основной из наземных очагов представляет собой биом Равнин.<BR>...<BR>Чтобы он мог творить чудеса, он должен быть снабжен §2Herba§0 эссенцией.
+witchinggadgets_research_page.TERRAFORMFOCUS_PLAINS.1=Самый основной из наземных очагов представляет собой биом Равнин.<BR>...<BR>Чтобы он мог творить чудеса, он должен быть снабжен §5Herba§0 эссенцией.
 witchinggadgets_research_name.TERRAFORMFOCUS_COLDTAIGA=Фокус Земли: Холодная Тайга
 witchinggadgets_research_text.TERRAFORMFOCUS_COLDTAIGA=[WG] Зима близко
-witchinggadgets_research_page.TERRAFORMFOCUS_COLDTAIGA.1=В сильном контрасте(ха, понятно ?; тут есть отсылка к игре престолов, но на русском она не понятна) с Фокусом пустыни, Фокусом земли: Холодная тайга превращает территорию вокруг себя в зимнюю страну чудес.<BR>...<BR>Требует §bGelum§0 эссенцию чтобы работать.
+witchinggadgets_research_page.TERRAFORMFOCUS_COLDTAIGA.1=В сильном контрасте(ха, понятно ?; тут есть отсылка к игре престолов, но на русском она не понятна) с Фокусом пустыни, Фокусом земли: Холодная тайга превращает территорию вокруг себя в зимнюю страну чудес.<BR>...<BR>Требует §5Gelum§0 эссенцию чтобы работать.
 witchinggadgets_research_name.TERRAFORMFOCUS_DESERT=Фокус Земли: Пустыня
 witchinggadgets_research_text.TERRAFORMFOCUS_DESERT=[WG] Не десертный обжора!
 witchinggadgets_research_page.TERRAFORMFOCUS_DESERT.1=Жаркое солнце, горячий песок, без воды и куча колючих кактусов. Даже сверхъестественное знание не может объяснить, почему кому-то это нужно.<BR>...<BR>Для сумасшедших, снабдив этот фокус §cIgnis§0 эссенцией он будет работать.
 witchinggadgets_research_name.TERRAFORMFOCUS_JUNGLE=Фокус Земли: Джунгли
 witchinggadgets_research_text.TERRAFORMFOCUS_JUNGLE=[WG] Добро пожаловать!
-witchinggadgets_research_page.TERRAFORMFOCUS_JUNGLE.1=Дружелюбный к животным волшебник делает все возможное, чтобы кошки были довольны. Жизнь в джунглях, хотя и вызывает сильное потоотделение, должна напоминать им об их прошлом, когда они были свирепыми хищниками среди кустов... прежде чем они превратились в раздражение, блокирующее грудь.<BR>...<BR>Для того, чтобы этот Фокус работал, потребуется §6Arbor§0 эссенция..
+witchinggadgets_research_page.TERRAFORMFOCUS_JUNGLE.1=Дружелюбный к животным волшебник делает все возможное, чтобы кошки были довольны. Жизнь в джунглях, хотя и вызывает сильное потоотделение, должна напоминать им об их прошлом, когда они были свирепыми хищниками среди кустов... прежде чем они превратились в раздражение, блокирующее грудь.<BR>...<BR>Для того, чтобы этот Фокус работал, потребуется §5Arbor§0 эссенция..
 witchinggadgets_research_name.TERRAFORMFOCUS_HELL=Фокус Земли: Ад
 witchinggadgets_research_text.TERRAFORMFOCUS_HELL=[WG] К черту Пустоту
-witchinggadgets_research_page.TERRAFORMFOCUS_HELL.1=Будем честны. Даже те, кто обезумел из-за искажения в своей голове, не хотят жить в месте лавы и серы.<BR>...<BR>ЧТО?! Ты хочешь?! Ну ладно. Обеспечьте фокус эссенцией Tenebrae и наслаждайтесь адом на земле.
+witchinggadgets_research_page.TERRAFORMFOCUS_HELL.1=Будем честны. Даже те, кто обезумел из-за искажения в своей голове, не хотят жить в месте лавы и серы.<BR>...<BR>ЧТО?! Ты хочешь?! Ну ладно. Обеспечьте фокус эссенцией §5Tenebrae§0 и наслаждайтесь адом на земле.
 witchinggadgets_research_name.TERRAFORMFOCUS_MUSHROOM=Фокус Земли: Грибной остров
-witchinggadgets_research_text.TERRAFORMFOCUS_MUSHROOM=[WG] Moooo-shroom!
-witchinggadgets_research_page.TERRAFORMFOCUS_MUSHROOM.1=Цвета могут быть нечеткими, а коровы выглядят забавно, но с гарантированной защитой от монстров Грибные острова делают идеальное место для отдыха.<BR>...<BR>И теперь вы можете привнести это ощущение к своему порогу, просто снабдив этот фокус §aLimus§0 эссенцией
+witchinggadgets_research_text.TERRAFORMFOCUS_MUSHROOM=[WG] Муууу-хомор!
+witchinggadgets_research_page.TERRAFORMFOCUS_MUSHROOM.1=Цвета могут быть нечеткими, а коровы выглядят забавно, но с гарантированной защитой от монстров Грибные острова делают идеальное место для отдыха.<BR>...<BR>И теперь вы можете привнести это ощущение к своему порогу, просто снабдив этот фокус §5Limus§0 эссенцией
 witchinggadgets_research_name.TERRAFORMFOCUS_TAINT=Фокус Земли: Зараженные земли
 witchinggadgets_research_text.TERRAFORMFOCUS_TAINT=[WG] Забери мои слезы, и это ещё не всё!
 witchinggadgets_research_page.TERRAFORMFOCUS_TAINT.1=Вот и все. К этому моменту вы в значительной степени квалифицируетесь как сумасшедший. Создание искусственно испорченной земли? И не только с каким-то запечатленным заражением, но и с полномасштабным терраформированием?<BR>...<BR>О, вы делаете это в исследовательских целях? Тогда это нормально. Просто добавьте в этот фокус немного §5Vitium§0 эссенции и сойдите с ума.
@@ -599,13 +599,13 @@ witchinggadgets_research_text.TERRAFORMFOCUS_END=[WG] К черту Пустот
 witchinggadgets_research_page.TERRAFORMFOCUS_END.1=Почему-то у меня такое чувство, что это не закончится хорошо, холодные астероиды и Эндермены.<BR>...<BR>Снабдите немного эссенцией §5Alienis§0 и живите в холодном и одиноком месте.
 witchinggadgets_research_name.TERRAFORMFOCUS_RIVER=Фокус терроформирования: Река
 witchinggadgets_research_text.TERRAFORMFOCUS_RIVER=[WG] Жизнь - это река
-witchinggadgets_research_page.TERRAFORMFOCUS_RIVER.1=Рыбалка - самый любимый прием волшебников. Вот почему многие из них решают поселиться возле реки.<BR>...<BR>Снабдите немного эссенцией §bAqua§0.
+witchinggadgets_research_page.TERRAFORMFOCUS_RIVER.1=Рыбалка - самый любимый прием волшебников. Вот почему многие из них решают поселиться возле реки.<BR>...<BR>Снабдите немного эссенцией §3Aqua§0.
 witchinggadgets_research_name.TERRAFORMFOCUS_OCEAN=Фокус терроформирования: Океан
-witchinggadgets_research_text.TERRAFORMFOCUS_OCEAN=[WG] Living on a Boat
-witchinggadgets_research_page.TERRAFORMFOCUS_OCEAN.1=Почему вам нужно больше воды, чем в реке, в вашем доме? Пустота над водой в океане - это романтично? Улучшите фокус реки до уровня океана и наслаждайтесь легендарными водными лианами.<BR>...<BR>Просто накормите эту штуку эссенцией §bAqua§0, веселитесь со своими новыми друзьями-криперами и наслаждайтесь романтическим видом.
+witchinggadgets_research_text.TERRAFORMFOCUS_OCEAN=[WG] Жизнь на лодке
+witchinggadgets_research_page.TERRAFORMFOCUS_OCEAN.1=Почему вам нужно больше воды, чем в реке, в вашем доме? Пустота над водой в океане - это романтично? Улучшите фокус реки до уровня океана и наслаждайтесь легендарными водными лианами.<BR>...<BR>Просто накормите эту штуку эссенцией §3Aqua§0, веселитесь со своими новыми друзьями-криперами и наслаждайтесь романтическим видом.
 witchinggadgets_research_name.TERRAFORMFOCUS_MAGIC=Фокус терроформирования: Магический лес
 witchinggadgets_research_text.TERRAFORMFOCUS_MAGIC=[WG] Это своего рода волшебство
-witchinggadgets_research_page.TERRAFORMFOCUS_MAGIC.1=Мир полон волшебства, но вы никогда не находили его в большом количестве, поэтому пришло время создать целый волшебный биом.<BR>...<BR>Добавьте немного §cSano§0, почувствуйте волшебство вокруг.
+witchinggadgets_research_page.TERRAFORMFOCUS_MAGIC.1=Мир полон волшебства, но вы никогда не находили его в большом количестве, поэтому пришло время создать целый волшебный биом.<BR>...<BR>Добавьте немного §5Sano§0, почувствуйте волшебство вокруг.
 
 # ADVANCED SCRIBING TOOLS
 witchinggadgets_research_name.ADVANCEDSCRIBINGTOOLS=Расширенная надпись

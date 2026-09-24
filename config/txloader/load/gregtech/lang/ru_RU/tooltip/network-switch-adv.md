@@ -1,8 +1,8 @@
-Variable-length version of the Weighted Network Switch.
+Вариант сетевого коммутатора с весами, у которого можно менять длину.
 {gray:{hr}}
-Consumes §b524,288§7 EU/t per middle slice while active.
+В работе потребляет §b524,288§7 EU/t за каждый средний сегмент.
 {gray:{hr}}
-Computation output is configured by right clicking transmission connectors with a screwdriver.
-Transmission connectors must be part of the structure for them to be configurable.
-Computation output for a hatch is directly controlled by the hatch's setting.
-For weighted computation distribution, use the §6{var:switch-name}§r.
+Выдача вычислений настраивается щелчком ПКМ отвёрткой по передающим разъёмам.
+Чтобы разъём можно было настроить, он должен входить в конструкцию.
+Выдача вычислений для разъёма напрямую задаётся его настройкой.
+Для распределения вычислений по весам используйте §6{var:switch-name}§r.

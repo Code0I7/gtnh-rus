@@ -184,7 +184,7 @@ item.projectred.exploration.backpack|12.name=Коричневый рюкзак
 item.projectred.exploration.backpack|13.name=Зелёный рюкзак
 item.projectred.exploration.backpack|14.name=Красный рюкзак
 item.projectred.exploration.backpack|15.name=Чёрный рюкзак
-item.projectred.exploration.athame.name=Athame
+item.projectred.exploration.athame.name=Атаме
 item.projectred.exploration.axeruby.name=Рубиновый топор
 item.projectred.exploration.axesapphire.name=Сапфировый топор
 item.projectred.exploration.axeperidot.name=Хризолитовый топор
@@ -600,7 +600,7 @@ fluid.redmetal.molten=Расплавленный проводящий красн
 
 
 
-itemGroup.fab=Project Red: Fabrication
+itemGroup.fab=Project Red: Производство
 
 item.projectred.fabrication.icblueprint.name=Чертеж микросхемы
 item.projectred.fabrication.icchip.name=Микросхема

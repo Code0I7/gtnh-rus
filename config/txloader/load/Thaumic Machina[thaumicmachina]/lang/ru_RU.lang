@@ -6,24 +6,24 @@ item.nodeAugmentation.name=Улучшение узла
 item.wandAugmentationCore.name=Ядро улучшения жезла
 
 # Augments
-tm.tooltip.augments_installed=Augmentations installed:
-tm.tooltip.augmented=Augmented
+tm.tooltip.augments_installed=Установленные улучшения:
+tm.tooltip.augmented=Улучшен
 tm.tooltip.hold_control=Удерживайте [CTRL]
-tm.augmentation.charge_buffer=Charge Buffer
-tm.augmentation.contact_discharge=Contact Discharge
-tm.augmentation.taint_capping=Taint Capping
-tm.augmentation.tainted_core=Tainted Core
-tm.augmentation.vis_channel=Vis Channel
+tm.augmentation.charge_buffer=Буфер заряда
+tm.augmentation.contact_discharge=Контактный разряд
+tm.augmentation.taint_capping=Сдерживание порчи
+tm.augmentation.tainted_core=Испорченное ядро
+tm.augmentation.vis_channel=Вис канал
 
 # Commands
 tm.command.thaumicmachina.usage=/thaumicmachina <help|wandaugmentation> ...
-tm.command.thaumicmachina.hint_alias=You can also use /tm in place of /thaumimachina.
-tm.command.thaumicmachina.command_list=Commands:
-tm.command.thaumicmachina.wandaugmentation.usage=/thaumicmachina wandaugmentation <add|remove|reset> <augmentation name>
-tm.command.thaumicmachina.error.no_wand_held=Player must be holding their wand in their hand.
-tm.command.thaumicmachina.error.unknown_augment=That augmentation does not exist
-tm.command.thaumicmachina.error.is_present=The held wand already has that augmentation installed.
-tm.command.thaumicmachina.error.is_absent=The held wand does not have that augmentation installed.
+tm.command.thaumicmachina.hint_alias=Вместо /thaumimachina можно писать /tm.
+tm.command.thaumicmachina.command_list=Команды:
+tm.command.thaumicmachina.wandaugmentation.usage=/thaumicmachina wandaugmentation <add|remove|reset> <название улучшения>
+tm.command.thaumicmachina.error.no_wand_held=Игрок должен держать жезл в руке.
+tm.command.thaumicmachina.error.unknown_augment=Такого улучшения не существует
+tm.command.thaumicmachina.error.is_present=На этом жезле такое улучшение уже установлено.
+tm.command.thaumicmachina.error.is_absent=На этом жезле такого улучшения нет.
 
 # Creative tab
 itemGroup.thaumicMachina=Thaumic Machina
@@ -113,7 +113,7 @@ tm.research.page.WAND_AUGMENTATION_CHARGE_BUFFER.1=Исследование то
 tm.research.name.WAND_AUGMENTATION_VIS_CHANNEL=Улучшение: Вис каналы
 tm.research.desc.WAND_AUGMENTATION_VIS_CHANNEL=Множество путей
 tm.research.page.WAND_AUGMENTATION_VIS_CHANNEL.1=Ваше использование жезлов показало вам, что, улучшая различные вещи, включая, помимо прочего, колпачки для палочек и ваши собственные мантии, вы можете снизить стоимость использования Вис палочкой. Вы потратили много времени и обдумали поиск другого способа снизить стоимость Вис, и наконец нашли способ. Добавляя специальные каналы таумия в ядро вашей палочки, вы можете создавать пути, по которым Вис предпочтет идти, эффективно снижая затраты на использование палочки.<BR>Применение этого улучшения к палочке даст палочке дополнительное снижение на 10% использовать. Добавляет 5% нестабильности палочке.
-tm.research.page.WAND_AUGMENTATION_VIS_CHANNEL.3=Applying this Augment to a wand will multiply vis costs by 90% of their normal price after reductions from the wand's construction. Any reductions from robes or baubles will be applied after this effect.
+tm.research.page.WAND_AUGMENTATION_VIS_CHANNEL.3=Это улучшение, установленное на жезл, умножает затраты виса на 90% от их обычной цены — уже после скидок от конструкции самого жезла. Скидки от одеяний и бижутерии применяются после этого эффекта.
 
 # Wand Augmentation: Tainted Core
 tm.research.name.WAND_AUGMENTATION_TAINTED_CORE=Улучшение: Испорченное ядро
@@ -124,7 +124,7 @@ tm.research.page.WAND_AUGMENTATION_TAINTED_CORE.1=Все имеет светлу
 tm.research.name.WAND_AUGMENTATION_TAINT_CAPPING=Улучшение: блокирование порчи
 tm.research.desc.WAND_AUGMENTATION_TAINT_CAPPING=[WIP] Переработка, переход на новый уровень
 tm.research.page.WAND_AUGMENTATION_TAINT_CAPPING.1=Ваша работа с магическими искусствами показала вам, что каждый ваш выбор может иметь мрачные последствия. Неосторожное колдовство часто приводит к накоплению порчи. В результате вашего исследования вы выяснили, что порча на самом деле является нормальной вис, которая была испорчена и превратилась в вещество птичьего фиолетового цвета. Вы нашли способ интегрировать в насадку вашей палочки аугментацию, которая может выкачивать вис прямо из порчи и испорченных объектов. К сожалению, это не прямой метод "один к одному", и вис часто выходит из строя на полпути во время передачи.
-tm.research.page.WAND_AUGMENTATION_TAINT_CAPPING.3=Применение этого улучшения к палочке дастпалочка, способная выкачивать Вис из порчи и испорченных объектов. Вис очень нестабилен и имеет 50% шанс выброситься в окружающую среду и ещё 25% (в случае успешного выкачивания) мутировать в Perditio. Добавляет 10% нестабильности к ядру палочки.
+tm.research.page.WAND_AUGMENTATION_TAINT_CAPPING.3=Применение этого улучшения к палочке дастпалочка, способная выкачивать Вис из порчи и испорченных объектов. Вис очень нестабилен и имеет 50% шанс выброситься в окружающую среду и ещё 25% (в случае успешного выкачивания) мутировать в §8Perditio§r. Добавляет 10% нестабильности к ядру палочки.
 
 # Wand Augmentation: Contact Discharge
 tm.research.name.WAND_AUGMENTATION_CONTACT_DISCHARGE=Улучшение: Контактный разряд

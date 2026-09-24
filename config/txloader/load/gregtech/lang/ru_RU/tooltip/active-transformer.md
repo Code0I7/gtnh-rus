@@ -1,2 +1,2 @@
-Can transform to and from any voltage
-Only 0.004% power loss, HAYO!
+Преобразует любой вольтаж в любой другой
+Потери всего 0.004%, HAYO!

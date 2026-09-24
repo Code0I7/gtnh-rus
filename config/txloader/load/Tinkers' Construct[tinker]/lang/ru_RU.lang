@@ -1037,7 +1037,7 @@ tool.boltammo=Болты
 tool.shuriken=Сюрикэн
 tool.throwingknife=Метательный нож
 tool.javelin=Копьё
-tool.boneana=Bonæna
+tool.boneana=Костобанан
 
 # Customization of default tool names based on tool and material
 #tool.shovel.wood=Wooden Shovel

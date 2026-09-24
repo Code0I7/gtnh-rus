@@ -286,9 +286,9 @@ gendustry.honeydrop.orange.name=Оранжевая капля мёда
 gendustry.honeydrop.white.name=Белая капля мёда
 
 itemGroup.bdew.gendustry=Gendustry
-itemGroup.bdew.templates=Генетические шаблоны
-itemGroup.bdew.samples=Генетические образцы
-itemGroup.bdew.hives=Custom Beehives
+itemGroup.bdew.templates=Gendustry: Генетические шаблоны
+itemGroup.bdew.samples=Gendustry: Генетические образцы
+itemGroup.bdew.hives=Gendustry: Особые ульи
 
 gendustry.errorstate.ok=Нет ошибки
 

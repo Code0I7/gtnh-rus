@@ -67,20 +67,20 @@ essentiaOutputHatch.0.name=Выходной шлюз эссенции
 essentiaOutputHatch_ME.name=Выходной шлюз эссенции (МЭ)
 essentiaOutputHatch_ME.0.name=Выходной шлюз эссенции (МЭ)
 componentAssemblyLineCasing.name=Корпус компонентной сборочной линии
-componentAssemblyLineCasing.0.name=Корпус компонентной сборочной линии (LV)
-componentAssemblyLineCasing.1.name=Корпус компонентной сборочной линии (MV)
-componentAssemblyLineCasing.2.name=Корпус компонентной сборочной линии (HV)
-componentAssemblyLineCasing.3.name=Корпус компонентной сборочной линии (EV)
-componentAssemblyLineCasing.4.name=Корпус компонентной сборочной линии (IV)
-componentAssemblyLineCasing.5.name=Корпус компонентной сборочной линии (LuV)
-componentAssemblyLineCasing.6.name=Корпус компонентной сборочной линии (ZPM)
-componentAssemblyLineCasing.7.name=Корпус компонентной сборочной линии (UV)
-componentAssemblyLineCasing.8.name=Корпус компонентной сборочной линии (UHV)
-componentAssemblyLineCasing.9.name=Корпус компонентной сборочной линии (UEV)
-componentAssemblyLineCasing.10.name=Корпус компонентной сборочной линии (UIV)
-componentAssemblyLineCasing.11.name=Корпус компонентной сборочной линии (UMV)
-componentAssemblyLineCasing.12.name=Корпус компонентной сборочной линии (UXV)
-componentAssemblyLineCasing.13.name=Корпус компонентной сборочной линии (MAX)
+componentAssemblyLineCasing.0.name=Корпус компонентной сборочной линии §2[LV]§r
+componentAssemblyLineCasing.1.name=Корпус компонентной сборочной линии §6[MV]§r
+componentAssemblyLineCasing.2.name=Корпус компонентной сборочной линии §e[HV]§r
+componentAssemblyLineCasing.3.name=Корпус компонентной сборочной линии §8[EV]§r
+componentAssemblyLineCasing.4.name=Корпус компонентной сборочной линии §9[IV]§r
+componentAssemblyLineCasing.5.name=Корпус компонентной сборочной линии §d[LuV]§r
+componentAssemblyLineCasing.6.name=Корпус компонентной сборочной линии §b[ZPM]§r
+componentAssemblyLineCasing.7.name=Корпус компонентной сборочной линии §2§n[UV]§r
+componentAssemblyLineCasing.8.name=Корпус компонентной сборочной линии §4§n[UHV]§r
+componentAssemblyLineCasing.9.name=Корпус компонентной сборочной линии §5§n[UEV]§r
+componentAssemblyLineCasing.10.name=Корпус компонентной сборочной линии §1§l§n[UIV]§r
+componentAssemblyLineCasing.11.name=Корпус компонентной сборочной линии §c§l§n[UMV]§r
+componentAssemblyLineCasing.12.name=Корпус компонентной сборочной линии §4§l§n[UXV]§r
+componentAssemblyLineCasing.13.name=Корпус компонентной сборочной линии §f§l§n[MAX]§r
 magneticFluxCasing.name=Корпус магнитного потока
 magneticFluxCasing.0.name=Корпус магнитного потока
 gravityStabilizationCasing.name=Корпус гравитационной стабилизации
@@ -286,7 +286,7 @@ tile.supercriticalSteam.name=Сверхкритический пар
 
 #Tab Name
 itemGroup.Good Generator=Good Generator
-itemGroup.Nuclear Items=[GG] Multi Nuclear Reactor
+itemGroup.Nuclear Items=Good Generator: Ядерный реактор
 
 #Scanner Info
 scanner.info.FRF=Тир катушки:
@@ -382,7 +382,7 @@ gui.AntimatterGenerator.2.s=§fЭффективность: ⟨ §b%s §f%% ⟩�
 batch_mode.cfgi.0=Размер партии
 gt.blockmachines.YottaFluidTank.cfgi.0=Интервал обновления (ввод/вывод каждые x тиков)
 
-gg.gui.text.large_essentia_smeltery.requires=Требует %s в общем §bAqua§f и §cIgnis §fсанти-вис для работы.
+gg.gui.text.large_essentia_smeltery.requires=Требует %s в общем §3Aqua§f и §cIgnis §fсанти-вис для работы.
 
 
 # RecipeMaps
@@ -398,7 +398,7 @@ value.naquadah_reactor=Базовый выходной вольтаж: %s EU/t
 value.naquadah_fuel_refine_factory=Нужна катушка %s тира
 value.neutron_activator.0=Минимальная кинетическая энергия нейтронов:
 value.neutron_activator.1=Максимальная кинетическая энергия нейтронов:
-value.neutron_activator.2= MeV
+value.neutron_activator.2= МэВ
 value.extreme_heat_exchanger.0=Макс. ввод горячей жидкости:
 value.extreme_heat_exchanger.1=Макс. ввод дистиллированной воды:
 value.extreme_heat_exchanger.4=Порог:
@@ -513,6 +513,6 @@ achievement.item.advancedRadiationProtectionPlate.desc=Просто посмот
 #Thaumcraft Research Context
 research.ESSENTIA_CELL.page.0=Эффективность начальной ячейки настолько низка, что вы не можете с этим мириться. Поэтому вы нашли новый способ создания более продвинутых ячеек.<br><br>Начальная ячейка даёт всего 1 очко стабильности, ячейка знатока - 2 очка, ячейка мастера - 5 очков, а ячейка магистра - целых 10 очков!<br><br>Чем выше стабильность, тем больше энергии генератор сможет выработать из каждой единицы эссенции.<br><br>Кроме того, они позволяют использовать более качественные люки.
 research.ESSENTIA_SMELTERY.page.0=Вам больше не хватает улучшенной алхимической печи для производства эссенции...<BR><BR>Большая плавильня эссенции (LES) - это следующий шаг после улучшенной алхимической печи, потребляющая электричество и санти-вис для плавки эссенции.
-research.ESSENTIA_SMELTERY.page.1=Ignis и Aqua - основные условия для работы LES. Минимальная потребность составляет примерно: (тир наивысшего энерговвода)^2 * 1.15 cv/операция, и машина сможет запуститься только после выполнения этого требования.<BR><BR>Ordo влияет на загрязнение и образование зараженного газа (Зараженный газ - случайным образом выпускается в направлении глушителя при выплавке эссенции).<BR><BR>Perditio может ускорить работу механизмов вплоть до 200% (100cv/5тиков).
+research.ESSENTIA_SMELTERY.page.1=§cIgnis§r и §3Aqua§r - основные условия для работы LES. Минимальная потребность составляет примерно: (тир наивысшего энерговвода)^2 * 1.15 cv/операция, и машина сможет запуститься только после выполнения этого требования.<BR><BR>§7Ordo§r влияет на загрязнение и образование зараженного газа (Зараженный газ - случайным образом выпускается в направлении глушителя при выплавке эссенции).<BR><BR>§8Perditio§r может ускорить работу механизмов вплоть до 200% (100cv/5тиков).
 research.ESSENTIA_SMELTERY.page.2=Тир диффузионной ячейки эссенции и размер структуры влияют только на параллель механизма и максимальная параллель 64x.<BR><BR>Предметы без эссенции будут переплавлены в 1 очко perditio.
 research.ESSENTIA_OUTPUT_HATCH_ME.page.0=Когда-нибудь вы им воспользуетесь...<BR><BR>Обязательно подключитесь к сети. У него нет кэша!

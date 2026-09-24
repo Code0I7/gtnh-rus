@@ -16,5 +16,5 @@ options.visualKeyboard=Визуальная клавиатура
 options.visualKeyboardHint=Нажмите на клавишу для привязки. Нажмите за пределами области для привязки кнопки мыши.
 options.visualKeyboardModifier=Модификатор
 options.visualKeyboardMain=Основная
-options.visualKeyboardNumpad=Numpad
+options.visualKeyboardNumpad=Цифровой блок
 options.visualKeyboardAux=Вспомогательная

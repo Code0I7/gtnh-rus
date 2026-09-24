@@ -447,7 +447,7 @@ item.cratedCookies.name=Ящик печенек
 item.cratedCrystallinePollen.name=Ящик скоплений кристаллической пыльцы
 item.cratedDarkOakSapling.name=Ящик саженцев тёмного дуба
 item.cratedDarkOakWood.name=Ящик коры тёмного дуба
-item.cratedDates.name=Crated Date
+item.cratedDates.name=Ящик фиников
 item.cratedDirt.name=Ящик земли
 item.cratedDrippingCombs.name=Ящик капающих сот
 item.cratedFertilizer.name=Ящик удобрений
@@ -838,10 +838,10 @@ item.for.waxCast.name=Восковая форма
 item.for.woodPulp.name=Древесная масса
 item.for.wrench.name=Гаечный ключ
 
-itemGroup.apiculture=Пчеловодство
-itemGroup.arboriculture=Лесоводство
+itemGroup.apiculture=Forestry: Пчеловодство
+itemGroup.arboriculture=Forestry: Лесоводство
 itemGroup.forestry=Forestry
-itemGroup.lepidopterology=Лепидоптерология
+itemGroup.lepidopterology=Forestry: Лепидоптерология
 
 tile.for.core.name=Анализатор / Секретер
 tile.for.core.0.name=Анализатор
@@ -958,30 +958,30 @@ for.errors.noPower.desc=Нет питания
 for.errors.noPower.help=Для работы механизма требуется энергия RF
 for.errors.noRedstone.desc=Требуется сигнал красного камня
 for.errors.noRedstone.help=Необходим сигнал красного камня для активации.
-for.errors.disabledRedstone.desc=Disabled by Redstone
-for.errors.disabledRedstone.help=This machine is being disabled by a redstone signal.
+for.errors.disabledRedstone.desc=Отключено красным камнем
+for.errors.disabledRedstone.help=Этот механизм отключён сигналом красного камня.
 for.errors.noRecipe.desc=Нет рецепта
 for.errors.noRecipe.help=Не найден рецепт для предоставленных ресурсов.
 for.errors.noResource.desc=Отсутствуют ресурсы
 for.errors.noResource.help=Для работы необходимо поставить больше ресурсов.
-for.errors.noResourceInventory.desc=Inventory needs resources
-for.errors.noResourceInventory.help=Resources need to be added to the machine's inventory to begin crafting this recipe.
+for.errors.noResourceInventory.desc=Нужны ресурсы в инвентаре
+for.errors.noResourceInventory.help=Чтобы начать изготовление по этому рецепту, добавьте ресурсы в инвентарь механизма.
 for.errors.noResourceLiquid.desc=Отсутствует жидкость
 for.errors.noResourceLiquid.help=Поставьте необходимую для работы жидкость.
-for.errors.noSpace.desc=No inventory space
-for.errors.noSpace.help=Empty this machine's inventory.
-for.errors.noSpaceTank.desc=No tank space
-for.errors.noSpaceTank.help=Empty this machine's liquid tank.
+for.errors.noSpace.desc=Нет места в инвентаре
+for.errors.noSpace.help=Освободите инвентарь этого механизма.
+for.errors.noSpaceTank.desc=Нет места в баке
+for.errors.noSpaceTank.help=Освободите бак этого механизма.
 for.errors.notDark.desc=Недостаточно темно
 for.errors.notDark.help=Для работы требуется низкий уровень освещённости.
 
 # RAIN TANK
 for.errors.notRaining.desc=Нет дождя
 for.errors.notRaining.help=Работает только во время дождя.
-for.errors.noRainBiome.desc=Never rains
-for.errors.noRainBiome.help=This location never receives rain.
+for.errors.noRainBiome.desc=Дождей не бывает
+for.errors.noRainBiome.help=В этом месте никогда не идёт дождь.
 for.errors.noSkyRainTank.desc=Небо закрыто
-for.errors.noSkyRainTank.help=Clear the area above this machine so it can gather rain.
+for.errors.noSkyRainTank.help=Освободите пространство над этим механизмом, чтобы он мог собирать дождевую воду.
 
 # ALYZERS
 for.errors.noHoney.desc=Требуется мёд
@@ -990,10 +990,10 @@ for.errors.noSpecimen.desc=Нечего анализировать
 for.errors.noSpecimen.help=Предоставьте образец для анализа.
 
 # ENGINES
-for.errors.forcedCooldown.desc=Forced Cooldown
-for.errors.forcedCooldown.help=The engine has overheated and must cool down before it can start again.
-for.errors.noEnergyNet.desc=No electricity
-for.errors.noEnergyNet.help=Your world is barren of any electricity. (Install IndustrialCraft\u00b2.)
+for.errors.forcedCooldown.desc=Принудительное охлаждение
+for.errors.forcedCooldown.help=Двигатель перегрелся и должен остыть, прежде чем сможет запуститься снова.
+for.errors.noEnergyNet.desc=Нет электричества
+for.errors.noEnergyNet.help=В вашем мире нет никакого электричества. (Установите IndustrialCraft\u00b2.)
 for.errors.noFuel.desc=Нет топлива
 for.errors.noFuel.help=Для работы этого двигателя требуется топливо. Пополните запасы топлива этой машины.
 for.errors.noHeat.desc=Не прогрет
@@ -1004,10 +1004,10 @@ for.errors.noStamps.desc=Нужны марки
 for.errors.noStamps.help=Торговой станции требуется больше марок для оплаты почтовых расходов.
 for.errors.noPaper.desc=Нужна бумага
 for.errors.noPaper.help=Торговая станция требует больше бумаги для отправки писем.
-for.errors.noSupplies.desc=Need Supplies
-for.errors.noSupplies.help=The trade station requires more supplies to send.
-for.errors.noTrade.desc=No Trade Set
-for.errors.noTrade.help=The trade station requires items to Send and Receive.
+for.errors.noSupplies.desc=Нужны запасы
+for.errors.noSupplies.help=Торговой станции требуется больше запасов для отправки.
+for.errors.noTrade.desc=Сделка не настроена
+for.errors.noTrade.help=Торговой станции нужно указать предметы для отправки и получения.
 
 # TRADE STATION NAMING
 for.errors.notAlphaNumeric.desc=Неверное имя
@@ -1022,30 +1022,30 @@ for.errors.notPostpaid.desc=Нужны марки
 for.errors.notPostpaid.help=Наклеивайте больше марок, чтобы оплатить услуги почтовой службы.
 
 # CIRCUIT BOARDS
-for.errors.circuitMismatch.desc=Layout Mismatch
+for.errors.circuitMismatch.desc=Несоответствие схемы
 for.errors.circuitMismatch.help=Количество ламп не соответствует размеру печатной платы.
 for.errors.noCircuitBoard.desc=Отсутствует плата
 for.errors.noCircuitBoard.help=Вставьте печатную плату чтобы припаять к ней лампы.
-for.errors.noCircuitLayout.desc=No Layouts Found
-for.errors.noCircuitLayout.help=No layouts available due to the current game settings.
+for.errors.noCircuitLayout.desc=Схемы не найдены
+for.errors.noCircuitLayout.help=Из-за текущих настроек игры доступных схем нет.
 
 # FARMS
-for.errors.noFarmland.desc=No Farmland
-for.errors.noFarmland.help=Smooth sandstone, bricks or stone bricks create a platform the farm will build on.
-for.errors.noFertilizer.desc=No Fertilizer
-for.errors.noFertilizer.help=Farms require fertilizer for function. Compost is insufficient.
+for.errors.noFarmland.desc=Нет пашни
+for.errors.noFarmland.help=Гладкий песчаник, кирпичи или каменные кирпичи создают платформу, где будет строиться ферма.
+for.errors.noFertilizer.desc=Нет удобрения
+for.errors.noFertilizer.help=Фермы нуждаются в удобрении, чтобы работать. Компоста недостаточно.
 for.errors.noLiquid.desc=Нет воды
-for.errors.noLiquid.help=Depending on rainfall, temperature and humidity farms need to be supplied with varying amounts of water.
+for.errors.noLiquid.help=В зависимости от количества осадков, температуры и влажности фермам требуется разное количество воды.
 
 # DEPRECATED
 for.errors.invalidBiome.desc=Враждебная среда
-for.errors.invalidBiome.help=Machine or inhabitants cannot work in this biome.
-for.errors.noDisposal.desc=Waste not disposable
-for.errors.noDisposal.help=Insufficient space to dispose of waste products.
+for.errors.invalidBiome.help=Механизм или его обитатели не могут работать в этом биоме.
+for.errors.noDisposal.desc=Некуда девать отходы
+for.errors.noDisposal.help=Недостаточно места для утилизации отходов.
 for.errors.unknown.desc=Неизвестная ошибка
-for.errors.unknown.help=Congratulations, you found a glitch.
+for.errors.unknown.help=Поздравляем, вы нашли баг.
 for.errors.wrongStacksize.desc=Слишком много предметов
-for.errors.wrongStacksize.help=Only single items can be used here.
+for.errors.wrongStacksize.help=Здесь можно использовать только по одному предмету.
 
 ####################
 # APICULTURE
@@ -1195,7 +1195,7 @@ for.chat.command.forestry.stats.save.key.discovered=Обнаружено
 for.chat.command.forestry.stats.save.key.discovered.symbol=X
 for.chat.command.forestry.stats.save.key.blacklisted=Запрещено
 for.chat.command.forestry.stats.save.key.blacklisted.symbol=BL
-for.chat.command.forestry.stats.save.key.notCounted=Not counted for the species total
+for.chat.command.forestry.stats.save.key.notCounted=Не учитывается в общем числе видов
 for.chat.command.forestry.stats.save.key.notCounted.symbol=NC
 for.chat.command.forestry.stats.save.mode=Режим: %s
 
@@ -1738,7 +1738,7 @@ for.plugin.growthcraft.description=Плагин совместимости дл�
 for.plugin.erebus.description=Плагин совместимости для Erebus.
 for.plugin.rotarycraft.description=Плагин совместимости для RotaryCraft
 for.plugin.minefactoryreloaded.description=Плагин совместимости для MineFactoryReloaded
-for.plugin.etfuturum.description=Compatibility plugin for EtFuturumRequiem
+for.plugin.etfuturum.description=Плагин совместимости для Et Futurum Requiem.
 
 ####################
 # CONFIG FILES
@@ -1746,16 +1746,16 @@ for.plugin.etfuturum.description=Compatibility plugin for EtFuturumRequiem
 
 for.config.performance=Производительность
 for.config.performance.particleFX=Эффекты частиц
-for.config.performance.particleFX.comment=Enables particle effects. Note that Forestry respects Minecraft's reduced particle video settings.
-for.config.performance.backpacks.resupply=Backpack Resupply
-for.config.performance.backpacks.resupply.comment=Enable backpack resupply. You may want to set this to false on busy servers.
+for.config.performance.particleFX.comment=Включает эффекты частиц. Обратите внимание, что Forestry учитывает настройку количества частиц в графических настройках Minecraft.
+for.config.performance.backpacks.resupply=Пополнение рюкзаков
+for.config.performance.backpacks.resupply.comment=Включает режим пополнения рюкзаков. На загруженных серверах его лучше отключить.
 
 for.config.world.generate=Генерации мира
 
-for.config.world.generate.retrogen.normal=Retrogen
-for.config.world.generate.retrogen.normal.comment=Creates Forestry world generation in chunks that were created before the mod was added.
-for.config.world.generate.retrogen.forced=Forced Retrogen
-for.config.world.generate.retrogen.forced.comment=Creates Forestry world generation in all chunks, even if they were generated there before.
+for.config.world.generate.retrogen.normal=Ретрогенерация
+for.config.world.generate.retrogen.normal.comment=Создаёт объекты генерации мира Forestry в чанках, которые были созданы до добавления мода.
+for.config.world.generate.retrogen.forced=Принудительная ретрогенерация
+for.config.world.generate.retrogen.forced.comment=Создаёт объекты генерации мира Forestry во всех чанках, даже если они уже были там сгенерированы.
 
 for.config.world.generate.ore.apatite=Генерация апатита
 for.config.world.generate.ore.apatite.comment=Генерация блоков апатитовой руды в мире.
@@ -1772,17 +1772,17 @@ for.config.world.generate.beehives.debug.comment=Заставить Forestry с�
 for.config.world.generate.villagers=Генерация жителей
 for.config.world.generate.villagers.comment=Создает forestry жителей и их дома.
 
-for.config.crafting=Crafting
-for.config.crafting.bronze=Craft Bronze
-for.config.crafting.bronze.comment=Enables the crafting recipe for bronze.
-for.config.crafting.stamps.enabled=Craft Stamps
-for.config.crafting.stamps.enabled.comment=Enables the crafting recipe for stamps. Disable to use stamps as a currency.
-for.config.crafting.stamps.disabled=Disabled Stamps
-for.config.crafting.stamps.disabled.comment=Disables the crafting recipe for certain stamps.
+for.config.crafting=Изготовление
+for.config.crafting.bronze=Изготовление бронзы
+for.config.crafting.bronze.comment=Включает рецепт изготовления бронзы.
+for.config.crafting.stamps.enabled=Изготовление марок
+for.config.crafting.stamps.enabled.comment=Включает рецепты изготовления марок. Отключите, чтобы использовать марки как валюту.
+for.config.crafting.stamps.disabled=Отключённые марки
+for.config.crafting.stamps.disabled.comment=Отключает рецепты изготовления определённых марок.
 
 for.config.tweaks=Мелкие правки
 
-for.config.tweaks.gui.showBackpackDurability=Shows a durability bar on backpacks indicating how full they are.
+for.config.tweaks.gui.showBackpackDurability=Показывает на рюкзаках полосу прочности, отражающую их заполненность.
 for.config.tweaks.gui.mail.alert.enabled=Почтовое оповещение
 for.config.tweaks.gui.mail.alert.enabled.comment=Включает окно оповещения о новой почте.
 for.config.tweaks.gui.mail.alert.xPosition=Горизонтальное положение
@@ -1791,14 +1791,14 @@ for.config.tweaks.gui.mail.alert.yPosition=Вертикальное положе
 for.config.tweaks.gui.mail.alert.yPosition.comment=Вертикальное положение окна почтового оповещения на экране.
 
 for.config.tweaks.gui.tabs.hints=Подсказки
-for.config.tweaks.gui.tabs.hints.comment=Enables the hints tab on machine and engine guis.
-for.config.tweaks.gui.tabs.speed=Tab Speed
-for.config.tweaks.gui.tabs.speed.comment=Set the speed at which the gui side tabs open and close.
-for.config.tweaks.gui.tabs.energy=Energy Tab
-for.config.tweaks.gui.tabs.energy.comment=Display the energy statistics tab on energy consumers.
+for.config.tweaks.gui.tabs.hints.comment=Включает вкладку подсказок в интерфейсах механизмов и двигателей.
+for.config.tweaks.gui.tabs.speed=Скорость вкладок
+for.config.tweaks.gui.tabs.speed.comment=Задаёт скорость открытия и закрытия боковых вкладок интерфейса.
+for.config.tweaks.gui.tabs.energy=Вкладка энергии
+for.config.tweaks.gui.tabs.energy.comment=Показывать вкладку статистики энергии у потребителей энергии.
 
-for.config.tweaks.gui.tooltip.liquidamount=Liquid Tooltip
-for.config.tweaks.gui.tooltip.liquidamount.comment=Display liquid amounts in tank tooltips.
+for.config.tweaks.gui.tooltip.liquidamount=Подсказка о жидкости
+for.config.tweaks.gui.tooltip.liquidamount.comment=Показывать количество жидкости во всплывающих подсказках баков.
 
 for.config.tweaks.permissions=Разрешения
 for.config.tweaks.permissions.comment=Позволяет ограничить доступ к forestry механизмам.
@@ -1821,16 +1821,16 @@ for.config.genetics.pollinate.vanilla.trees=Опылять ванильные д
 for.config.genetics.pollinate.vanilla.trees.comment=Разрешить пчелам, бабочкам и игрокам опылять листья ванильного дерева. Если отключено, ванильные деревья должны быть проанализированы, прежде чем их можно будет опылить.
 for.config.genetics.research.boost.multiplier=Множитель мутаций исследований
 for.config.genetics.research.boost.multiplier.comment=Увеличивает вероятность мутации при её обнаружении в секретере.
-for.config.genetics.research.boost.max.percent=Research Mutation Max
-for.config.genetics.research.boost.max.percent.comment=The maximum percentage boost that can be applied by researching a mutation in the Escritoire.
+for.config.genetics.research.boost.max.percent=Максимум от исследования мутаций
+for.config.genetics.research.boost.max.percent.comment=Максимальная прибавка в процентах, которую можно получить, исследуя мутацию в секретере.
 
 for.config.difficulty=Сложность
 for.config.difficulty.game.mode=Игровой режим
 for.config.difficulty.game.mode.comment=Установите предпочитаемый вами игровой режим. Несоответствие серверу может вызвать визуальные сбои в рецептах.
-for.config.difficulty.recreate.definitions=Recreate Definitions
-for.config.difficulty.recreate.definitions.comment=Forces recreation of the game mode definitions in config/forestry/gamemodes.
-for.config.difficulty.loot.rare=Rare Loot
-for.config.difficulty.loot.rare.comment=Makes dungeon loot generated by forestry rarer.
+for.config.difficulty.recreate.definitions=Пересоздать определения
+for.config.difficulty.recreate.definitions.comment=Принудительно пересоздаёт определения игровых режимов в config/forestry/gamemodes.
+for.config.difficulty.loot.rare=Редкая добыча
+for.config.difficulty.loot.rare.comment=Делает добычу Forestry из сундуков подземелий более редкой.
 
 for.config.structures=Структуры
 for.config.structures.disabled=Отключённые структуры
@@ -1839,7 +1839,7 @@ for.config.structures.disabled.comment=Перечислите конкретны
 for.config.fluids=Жидкости
 for.config.fluids.enable.format=Включает %s жидкость.
 for.config.fluid.blocks=Жидкостные блоки
-for.config.fluid.blocks.enable.format=Enables %s in-world fluid block.
+for.config.fluid.blocks.enable.format=Включает %s жидкостный блок в мире.
 
 for.config.debug.enabled=Отладочный режим
 for.config.debug.enabled.comment=Включить режим отладки (полезно только разработчикам).
@@ -1848,30 +1848,30 @@ for.config.beekeeping.mode=Режим пчеловодства
 for.config.beekeeping.mode.comment=Измените режим пчеловодства.
 for.config.beekeeping.second.princess=Шанс второй принцессы
 for.config.beekeeping.second.princess.comment=Процентный шанс выпадения второй принцессы для ограниченных/скайблок карт.
-for.config.beekeeping.flowers.accepted=Accepted Flowers
-for.config.beekeeping.flowers.accepted.comment=Accepted flowers allow bees to work. Format is 'modid:name:meta', one per line. The format for wildcard  metadata is 'modid:name'.
-for.config.beekeeping.flowers.plantable=Plantable Flowers
-for.config.beekeeping.flowers.plantable.comment=Plantable flowers are placed by bees. All plantable flowers are automatically accepted flowers. Format is 'modid:name:meta', one per line. The format for wildcard  metadata is 'modid:name'.
+for.config.beekeeping.flowers.accepted=Принимаемые цветы
+for.config.beekeeping.flowers.accepted.comment=Принимаемые цветы позволяют пчёлам работать. Формат — 'modid:name:meta', по одному в строке. Для любых метаданных используйте формат 'modid:name'.
+for.config.beekeeping.flowers.plantable=Высаживаемые цветы
+for.config.beekeeping.flowers.plantable.comment=Высаживаемые цветы пчёлы размещают сами. Все высаживаемые цветы автоматически считаются принимаемыми. Формат — 'modid:name:meta', по одному в строке. Для любых метаданных используйте формат 'modid:name'.
 
 for.config.species.blacklist=Чёрный список видов
 for.config.species.blacklist.comment=Добавляйте виды в чёрный список, идентифицируемые по их uid, по одному виду на строку.
 
-for.config.butterfly.entities.spawn.limit=Butterfly Spawn Limit
-for.config.butterfly.entities.spawn.limit.comment=Butterflies will stop natural spawning once this limit is reached.
-for.config.butterfly.entities.maximum=Butterfly Maximum
-for.config.butterfly.entities.maximum.comment=New butterflies will stay in item form and will not take flight once this limit is reached.
-for.config.butterfly.entities.pollination=Butterfly Pollination
-for.config.butterfly.entities.pollination.comment=Allow butterflies to pollinate leaves.
-for.config.butterfly.entities.disable.leaf.spawns=Disable Butterfly Leaf Spawns
-for.config.butterfly.entities.disable.leaf.spawns.comment=Prevent random butterflies from autonomously spawning from Forestry leaves.
+for.config.butterfly.entities.spawn.limit=Предел появления бабочек
+for.config.butterfly.entities.spawn.limit.comment=По достижении этого предела бабочки перестанут появляться естественным образом.
+for.config.butterfly.entities.maximum=Максимум бабочек
+for.config.butterfly.entities.maximum.comment=По достижении этого предела новые бабочки останутся в виде предметов и не взлетят.
+for.config.butterfly.entities.pollination=Опыление бабочками
+for.config.butterfly.entities.pollination.comment=Разрешить бабочкам опылять листву.
+for.config.butterfly.entities.disable.leaf.spawns=Отключить появление бабочек из листвы
+for.config.butterfly.entities.disable.leaf.spawns.comment=Запрещает случайным бабочкам самостоятельно появляться из листвы Forestry.
 
 for.config.backpacks.item.stacks.format=Добавьте itemStacks для рюкзака %s здесь в формате 'modid:name:meta'. Для метаданных с подстановочными знаками формат будет 'modid:name'.
 for.config.backpacks.ore.dict.format=Добавьте сюда названия словарей руды для рюкзака %s в формате 'oreDictName'.
 
 for.config.gamemode=Игровой режим
 
-for.config.gamemode.energy.demand.modifier.comment=Modifies the energy required to activate machines, as well as the max amount of energy stored and accepted.
-for.config.gamemode.farms.fertilizer.value.comment=Modifies the time a piece of fertilizer lasts in a farm.
+for.config.gamemode.energy.demand.modifier.comment=изменяет количество энергии, необходимое для запуска механизмов, а также максимальный объём хранимой и принимаемой энергии.
+for.config.gamemode.farms.fertilizer.value.comment=изменяет время, в течение которого единица удобрения работает на ферме.
 
 for.config.gamemode.fuel.ethanol.generator.comment=изменяет энергию, вырабатываемую этанолом в биогенераторе.
 for.config.gamemode.fuel.ethanol.combustion.comment=изменяет энергию, вырабатываемую этанолом в двигателях внутреннего сгорания Buildcraft.
@@ -1904,7 +1904,7 @@ for.config.gamemode.squeezer.liquid.seed.comment=изменяет количес
 for.config.gamemode.squeezer.liquid.apple.comment=изменяет количество сока, выжатого из одного яблока. Другие источники основаны на этом.
 for.config.gamemode.squeezer.mulch.apple.comment=изменяет вероятность образования мульчи на одно выжатое яблоко.
 
-for.config.gamemode.energy.engine.clockwork.comment=Enable the clockwork engine.
+for.config.gamemode.energy.engine.clockwork.comment=включает заводной двигатель.
 
 ###################################
 # CUSTOM BEE AND TREE SPECIES NAMES

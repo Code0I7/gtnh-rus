@@ -13,19 +13,19 @@ kubatech.mobhandler.eec_disabled=§5Не падает в EEC
 kubatech.commandhandler.invalid=§cНедопустимое использование! Правильное использование этой команды /%s
 kubatech.commandhandler.cant_find=§cНе удается найти параметр команды %s
 kubatech.commandhandler.generic_help=§cВы также можете использовать "/kubatech help" для получения возможных команд
-kubatech.commandhandler.usage=<option>
+kubatech.commandhandler.usage=<параметр>
 kubatech.command.help.possible_commands=Возможные команды:
 kubatech.command.help.usage=- Показывает все возможные команды
 kubatech.command.config.invalid_option=§cНеверный вариант! Возможные варианты: перезагрузить
 kubatech.command.config.success=§aКонфигурация успешно перезагружена!
-kubatech.command.config.usage=<option>
+kubatech.command.config.usage=<параметр>
 
 kubatech.command.tea.invalid_option=§cНедопустимое использование!
 kubatech.command.tea.player_not_found=§cИгрок не найден!
 kubatech.command.tea.success_get=Игрок %s имеет %d Чай
 kubatech.command.tea.success_set=Игрок %s теперь имеет %d Чай
 kubatech.command.tea.success_add=Игрок %s теперь имеет %d Чай
-kubatech.command.tea.usage=<username> get/set/add (<amount>)
+kubatech.command.tea.usage=<игрок> get/set/add (<кол-во>)
 
 #GUI
 GT5U.gui.text.recipe_result.EEC_nospawner=Нет электрического спаунера!
@@ -38,8 +38,8 @@ GT5U.gui.text.recipe_result.EIG_seedOverflow=Внутри слишком мно�
 GT5U.gui.text.recipe_result.EIG_missingwater=Нет воды!
 GT5U.gui.text.EIG_ic2glass=Недостаточный тир стекла!
 
-GT5U.gui.text.recipe_result.arc_shutdown=Arc Furnace is shutting down!
-GT5U.gui.text.recipe_result.arc_ignition=Arc Furnace is starting up!
+GT5U.gui.text.recipe_result.arc_shutdown=Дуговая печь отключается!
+GT5U.gui.text.recipe_result.arc_ignition=Дуговая печь запускается!
 GT5U.gui.text.recipe_result.no_electrode=Электрод не вставлен!
 GT5U.gui.text.shutdown_reason.electrode_changed=Электрод был заменен во время работы!
 
@@ -49,10 +49,10 @@ kubatech.gui.text.configuration=Настройки
 kubatech.gui.text.tea_ultimate.status=СТАТУС
 kubatech.gui.text.tea_ultimate.tea=Чай
 kubatech.gui.text.tea_ultimate.tea_limit=Лимит чая
-kubatech.gui.text.tea_ultimate.exchange=EXCHANGE
-kubatech.gui.text.tea_ultimate.exchange.cost=Cost: %s Tea
-kubatech.gui.text.tea_ultimate.benefits=BENEFITS
-kubatech.gui.tooltip.tea_ultimate.tea_acceptor_research_note=Tea Acceptor Research Note
+kubatech.gui.text.tea_ultimate.exchange=ОБМЕН
+kubatech.gui.text.tea_ultimate.exchange.cost=Стоимость: %s чая
+kubatech.gui.text.tea_ultimate.benefits=БОНУСЫ
+kubatech.gui.tooltip.tea_ultimate.tea_acceptor_research_note=Заметка исследования приёмщика чая
 
 kubatech.gui.text.tea_acceptor.name=Приёмщик чая
 kubatech.gui.text.tea_acceptor.tea=[Чай]
@@ -62,13 +62,13 @@ kubatech.gui.text.tea_acceptor.in.tooltip=Средний ввод за посл�
 
 kubatech.gui.text.eec.preserve_weapon_on=Сохранение оружия: ВКЛ
 kubatech.gui.text.eec.preserve_weapon_off=Сохранение оружия: ВЫКЛ
-kubatech.gui.text.eec.preserve_weapon_warning=Not using GUI weapon.
-kubatech.gui.text.eec.cycle_weapons_on=Weapon Cycling: ON
-kubatech.gui.text.eec.cycle_weapons_off=Weapon Cycling: OFF
-kubatech.gui.text.eec.cycle_weapons.info=If §fWeapon Preservation§r is enabled, moves almost broken weapons from the GUI to Output Buses, if there's space.
+kubatech.gui.text.eec.preserve_weapon_warning=Оружие из интерфейса не используется.
+kubatech.gui.text.eec.cycle_weapons_on=Смена оружия: ВКЛ
+kubatech.gui.text.eec.cycle_weapons_off=Смена оружия: ВЫКЛ
+kubatech.gui.text.eec.cycle_weapons.info=Если включено §fСохранение оружия§r, почти сломанное оружие перекладывается из интерфейса в выходные люки, если там есть место.
 kubatech.gui.text.eec.void_all_damaged_on=Уничтожать повреждённые и зачарованные предметы: ВКЛ
 kubatech.gui.text.eec.void_all_damaged_off=Уничтожать повреждённые и зачарованные предметы: ВЫКЛ
-kubatech.gui.text.eec.void_all_damaged.warning=Does not affect infernal drops and some special drops like the Sticky Sword! Will never void the weapon in the GUI slot.
+kubatech.gui.text.eec.void_all_damaged.warning=Не действует на инфернальную добычу и некоторые особые дропы вроде Sticky Sword! Оружие в слоте интерфейса не уничтожается никогда.
 kubatech.gui.text.eec.infernal_drop_on=Разрешить спавн инферналов: ВКЛ
 kubatech.gui.text.eec.infernal_drop_off=Разрешить спавн инферналов: ВЫКЛ
 kubatech.gui.text.eec.infernal_drop_always=Не действует на мобов, которые всегда инфернальные!
@@ -88,14 +88,14 @@ kubatech.gui.text.eig.setup_mode=Режим настройки
 kubatech.gui.text.eig.disabled=Отключено
 kubatech.gui.text.eig.enabled=Включено
 kubatech.gui.text.eig.ic2_mode=IC2 режим
-kubatech.gui.text.eig.no_humidity_mode=No Humidity mode
-kubatech.gui.text.eig.inventory_full_warning=Seed inventory is full!
+kubatech.gui.text.eig.no_humidity_mode=Режим без влажности
+kubatech.gui.text.eig.inventory_full_warning=Инвентарь семян заполнен!
 kubatech.gui.text.mia.primary_mode=Основной режим
 kubatech.gui.text.mia.normal=Обычный
 kubatech.gui.text.mia.swarmer=Роение
 kubatech.gui.text.mia.secondary_mode=Второй режим
-kubatech.gui.text.mia.show_bee_inventory=Show Bee Inventory
-kubatech.gui.text.mia.show_machine_status=Show Machine Status
+kubatech.gui.text.mia.show_bee_inventory=Показать инвентарь пчёл
+kubatech.gui.text.mia.show_machine_status=Показать статус механизма
 
 kubatech.gui.tooltip.contributors.added=Добавлено %s
 kubatech.gui.tooltip.contributors.design=Дизайн %s
@@ -103,13 +103,13 @@ kubatech.gui.tooltip.contributors.structure=Структура спроекти�
 
 kubatech.gui.tooltip.dynamic_inventory.identical_slots=Имеется %d одинаковых слотов
 kubatech.gui.tooltip.dynamic_inventory.empty_slot=Пустой слот
-kubatech.gui.tooltip.dynamic_inventory.eig.seed_count=Seeds: %d
+kubatech.gui.tooltip.dynamic_inventory.eig.seed_count=Семян: %d
 kubatech.gui.tooltip.dynamic_inventory.eig.remaining_seed_types=Оставшиеся виды семян: %d
-kubatech.gui.tooltip.dynamic_inventory.eig.remaining_seed_capacity=Remaining seed capacity: %d
+kubatech.gui.tooltip.dynamic_inventory.eig.remaining_seed_capacity=Осталось места для семян: %d
 
 kubatech.gui.text.electrode_detector=Порог долговечности
-kubatech.gui.text.electrode_detector.durability=§8Durability value
-kubatech.gui.text.electrode_detector.percentage=§8Durability percentage
+kubatech.gui.text.electrode_detector.durability=§8Значение прочности
+kubatech.gui.text.electrode_detector.percentage=§8Прочность в процентах
 
 #Chat Messages
 kubatech.chat.forbidden_while_running=Нельзя изменить режим во время работы!
@@ -123,8 +123,8 @@ kubatech.chat.eec.ritual_mode_enabled=Режим ритуала включен
 kubatech.chat.eec.ritual_mode_disabled=Режим ритуала отключён
 kubatech.chat.eec.ritual_mode_connected=Успешно подключён к ритуалу
 kubatech.chat.eec.ritual_mode_error=Не могу подключиться к ритуалу!
-kubatech.chat.eec.infernal_drops_enabled=Mobs can spawn infernal
-kubatech.chat.eec.infernal_drops_disabled=Mobs will be prevented from spawning infernal
+kubatech.chat.eec.infernal_drops_enabled=Мобы могут появляться инфернальными
+kubatech.chat.eec.infernal_drops_disabled=Мобам запрещено появляться инфернальными
 
 # info data
 ## general
@@ -144,10 +144,10 @@ kubatech.infodata.eec.in_ritual_mode.yes=Находится в режим рит
 kubatech.infodata.eec.in_ritual_mode.no=Находится в режим ритуала: §eНет
 kubatech.infodata.eec.connected_to_ritual.yes=Связан с ритуалом: §aДа
 kubatech.infodata.eec.connected_to_ritual.no=Связан с ритуалом: §cНет
-kubatech.infodata.eec.cycle_weapons.yes=Is cycling weapons: §eYes
-kubatech.infodata.eec.cycle_weapons.no=Is cycling weapons: §eNo
-kubatech.infodata.eec.weapon_preservation.yes=Is preserving weapons: §eYes
-kubatech.infodata.eec.weapon_preservation.no=Is preserving weapons: §eNo
+kubatech.infodata.eec.cycle_weapons.yes=Смена оружия: §eДа
+kubatech.infodata.eec.cycle_weapons.no=Смена оружия: §eНет
+kubatech.infodata.eec.weapon_preservation.yes=Сохранение оружия: §eДа
+kubatech.infodata.eec.weapon_preservation.no=Сохранение оружия: §eНет
 kubatech.infodata.eec.inserted_weapon.yes=Вставленное оружие: §eДа
 kubatech.infodata.eec.inserted_weapon.no=Вставленное оружие: §eНет
 kubatech.infodata.eec.weapon.damage=Урон от атаки оружием: §e%f
@@ -173,10 +173,10 @@ kubatech.infodata.mia.running_mode.output=Работает в режиме: §6�
 kubatech.infodata.mia.running_mode.operating.normal=Работает в режиме: §6Режим работы (НОРМАЛЬНЫЙ)§r
 kubatech.infodata.mia.running_mode.operating.swarmer=Работает в режиме: §6Режим работы (РОЕНИЕ)§r
 kubatech.infodata.mia.running_mode.bee_storage=Хранилище пчел (%s/%s):
-kubatech.infodata.mia.inventory_full=No more slots for bees!
-kubatech.gui.text.mia.inventory_full_warning=No more bee slots available!
-kubatech.gui.text.mia.locked_while_running=Bee inventory locked while machine is running
-kubatech.infodata.mia.gui_locked_while_running=Cannot modify bee inventory via GUI while running
+kubatech.infodata.mia.inventory_full=Больше нет слотов для пчёл!
+kubatech.gui.text.mia.inventory_full_warning=Свободных слотов для пчёл больше нет!
+kubatech.gui.text.mia.locked_while_running=Инвентарь пчёл заблокирован, пока механизм работает
+kubatech.infodata.mia.gui_locked_while_running=Во время работы инвентарь пчёл нельзя менять через интерфейс
 
 #HTGR
 kubatech.infodata.htgr.stored_fuel=§fХранящееся топливо:
@@ -193,7 +193,7 @@ kubatech.MBTT.CoolantInputHatch=Входной шлюз (Хладагент)
 kubatech.MBTT.HeliumInputHatch=Входной шлюз (Гелий)
 kubatech.MBTT.WaterInputHatch=Входной шлюз (Вода)
 kubatech.MBTT.CoolantOutputHatch=Выходной шлюз (Хладагент)
-kubatech.MBTT.SteamOutputHatch=Выходной шлюз (Пар)
+kubatech.MBTT.SteamOutputHatch=Выходной шлюз [Пар]
 
 #Waila
 kubatech.waila.eec.mob_type=Вид существа: %s
@@ -246,17 +246,17 @@ item.arc_furnace_electrode.tip.parallel_limit=Параллелей: %s
 item.arc_furnace_electrode.tip.parallel_limit_none=Нет
 item.arc_furnace_electrode.tip.oc=OC: %s%s
 item.arc_furnace_electrode.tip.eu_modifier=EU Модификатор: %s
-item.arc_furnace_electrode.tip.startup_penalty=Startup Penalty: %s
-item.arc_furnace_electrode.tip.startup_amperage=Startup Amperage: %s A
+item.arc_furnace_electrode.tip.startup_penalty=Штраф за запуск: %s
+item.arc_furnace_electrode.tip.startup_amperage=Сила тока при запуске: %s A
 
-item.arc_furnace_electrode.tip.special_effect.GraphiteElectrode=§6§lBread and Butter§r§6: No startup penalty
-item.arc_furnace_electrode.tip.special_effect.GrapheneElectrode=§6§lBread and Butter§r§6: No startup penalty
-item.arc_furnace_electrode.tip.special_effect.YBCOElectrode=§6§lRapid Oxidation§r§6: Every OC increases durability usage by 100%
-item.arc_furnace_electrode.tip.special_effect.NetheriteElectrode=§6§lHot Restart§r§6: There is no shutdown cooldown. If machine is off for less than 4 seconds, skip startup entirely
-item.arc_furnace_electrode.tip.special_effect.InfinityElectrode=§6§lTo Infinity!§r§6: Every successful processing doubles the amount of parallels, until power failure or machine shutdown (power usage is equal to the amount of parallels regardless of provided items)
-item.arc_furnace_electrode.tip.special_effect.NeutroniumNaniteElectrode=§6§lNanite Repair§r§6: Optionally consumes one Neutronium Dust per operation for a 70% chance to not lose any durability
-item.arc_furnace_electrode.tip.special_effect.TranscendentNaniteElectrode=§6§lNanite Maintenance§r§6: Optionally consumes one Transcendent Metal Dust per operation to restore 1 durability
-item.arc_furnace_electrode.tip.special_effect.UniversiumNaniteElectrode=§6§lNanite Recovery§r§6: Optionally consumes one Universium Dust per operation to fully repair the electrode
+item.arc_furnace_electrode.tip.special_effect.GraphiteElectrode=§6§lРабочая лошадка§r§6: без штрафа за запуск
+item.arc_furnace_electrode.tip.special_effect.GrapheneElectrode=§6§lРабочая лошадка§r§6: без штрафа за запуск
+item.arc_furnace_electrode.tip.special_effect.YBCOElectrode=§6§lБыстрое окисление§r§6: каждый оверклок увеличивает расход прочности на 100%
+item.arc_furnace_electrode.tip.special_effect.NetheriteElectrode=§6§lГорячий перезапуск§r§6: отката после отключения нет. Если механизм простоял меньше 4 секунд, запуск пропускается полностью
+item.arc_furnace_electrode.tip.special_effect.InfinityElectrode=§6§lК бесконечности!§r§6: каждая успешная обработка удваивает число параллелей — до сбоя питания или отключения механизма (расход энергии равен числу параллелей независимо от поданных предметов)
+item.arc_furnace_electrode.tip.special_effect.NeutroniumNaniteElectrode=§6§lНанитный ремонт§r§6: по желанию тратит одну пыль нейтрония за операцию ради 70% шанса не потерять прочность
+item.arc_furnace_electrode.tip.special_effect.TranscendentNaniteElectrode=§6§lНанитное обслуживание§r§6: по желанию тратит одну пыль трансцендентного металла за операцию, чтобы восстановить 1 прочность
+item.arc_furnace_electrode.tip.special_effect.UniversiumNaniteElectrode=§6§lНанитное восстановление§r§6: по желанию тратит одну пыль универсиума за операцию, чтобы полностью починить электрод
 
 #Tea
 kubaitem.tea.black_tea.name=Чёрный чай
